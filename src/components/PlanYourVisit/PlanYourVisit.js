@@ -47,7 +47,7 @@ const PlanYourVisit = ({ VisitRef, AttractionsRef }) => {
 					parku za darmo. Parkujemy w centrum Łeby – ulica Wojska Polskiego
 					(obok pizzerii Lider). Pierwszy przejazd wykonujemy o godzinie{' '}
 					<span>9:00</span>, busy odjeżdżają <span>co 10 minut</span> (wg.
-					zajętości pojazdów).
+					zajętości pojazdów, do końca sierpnia).
 				</p>
 			</div>
 			<div className='visit-items'>
@@ -87,7 +87,7 @@ const PlanYourVisit = ({ VisitRef, AttractionsRef }) => {
 						<span>WSZYSTKIE** atrakcje w cenie biletu!</span>
 					</h4>
 					<p>
-						+ bezpłatne przejazd z Łeby DINO BUSEM!
+						+ bezpłatnie przejazd z Łeby DINO BUSEM! (do ostatniego dnia sierpnia)
 						<br />+ niestrzeżony parking (dla zwiedzających, otwarty w godzinach
 						pracy parku) GRATIS!
 					</p>

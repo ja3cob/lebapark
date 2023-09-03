@@ -68,7 +68,6 @@ const SpecialOffers = ({ OffersRef }) => {
           <li>przejazd pojazdem bajkowym</li>
           <li>wstęp na Diabelski Młyn (koło młyńskie) wysoki na 27 metrów!,</li>
           <li>labirynt magicznych luster,</li>
-          <li>bezpłatny dojazd do parku</li>
         </ul>
       </div>
     </div>
