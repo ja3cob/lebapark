@@ -2,7 +2,6 @@ const NavbarDesktop = ({ refs }) => {
   const [
     HeroRef,
     AttractionsRef,
-    AnimationsRef,
     NewsRef,
     OffersRef,
     VisitRef,
@@ -37,20 +36,12 @@ const NavbarDesktop = ({ refs }) => {
           <li className="nav-3">
             <button
               className="mobile-menu-link"
-              onClick={() => handleScroll(AnimationsRef)}
-            >
-              Animacje
-            </button>
-          </li>
-          <li className="nav-4">
-            <button
-              className="mobile-menu-link"
               onClick={() => handleScroll(NewsRef)}
             >
               Aktualności
             </button>
           </li>
-          <li className="nav-5">
+          <li className="nav-4">
             <button
               className="mobile-menu-link"
               onClick={() => handleScroll(OffersRef)}
@@ -58,7 +49,7 @@ const NavbarDesktop = ({ refs }) => {
               Oferty specjalne
             </button>
           </li>
-          <li className="nav-6">
+          <li className="nav-5">
             <button
               className="mobile-menu-link"
               onClick={() => handleScroll(VisitRef)}
@@ -67,7 +58,7 @@ const NavbarDesktop = ({ refs }) => {
             </button>
           </li>
 
-          <li className="nav-7">
+          <li className="nav-6">
             <button
               className="mobile-menu-link"
               onClick={() => handleScroll(ContactRef)}

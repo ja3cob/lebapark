@@ -47,14 +47,6 @@ const NavbarMobile = ({ refs }) => {
           <li>
             <button
               className="mobile-menu-link"
-              onClick={() => handleScroll(AnimationsRef)}
-            >
-              Animacje
-            </button>
-          </li>
-          <li>
-            <button
-              className="mobile-menu-link"
               onClick={() => handleScroll(NewsRef)}
             >
               Aktualności

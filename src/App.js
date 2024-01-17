@@ -3,7 +3,6 @@ import { useCookies } from 'react-cookie';
 import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
 import Attractions from './components/Attractions/Attractions';
-import Animations from './components/Animations/Animations';
 import News from './components/News/News';
 import SpecialOffers from './components/SpecialOffers/SpecialOffers';
 import PlanYourVisit from './components/PlanYourVisit/PlanYourVisit';
@@ -78,7 +77,6 @@ const App = () => {
 	// references - scroll to section after navbar clicked
 	const HeroRef = useRef();
 	const AttractionsRef = useRef();
-	const AnimationsRef = useRef();
 	const NewsRef = useRef();
 	const OffersRef = useRef();
 	const VisitRef = useRef();
@@ -86,7 +84,6 @@ const App = () => {
 	const refs = [
 		HeroRef,
 		AttractionsRef,
-		AnimationsRef,
 		NewsRef,
 		OffersRef,
 		VisitRef,
@@ -104,14 +101,13 @@ const App = () => {
 			<div className='content'>
 				<Hero HeroRef={HeroRef} />
 				<Attractions isMobile={isMobile} AttractionsRef={AttractionsRef} />
-				<Animations AnimationsRef={AnimationsRef} />
 				<News NewsRef={NewsRef} />
 				<SpecialOffers OffersRef={OffersRef} />
 				<PlanYourVisit VisitRef={VisitRef} AttractionsRef={AttractionsRef} />
 				<Contact ContactRef={ContactRef} />
 			</div>
 			<footer>
-				<p>Wszystkie prawa zastrzeżone. Copyright by Łeba Park © 2008-2021.</p>
+				<p>Wszystkie prawa zastrzeżone. Copyright by Łeba Park © 2008-2024.</p>
 			</footer>
 		</Controller>
 	);
