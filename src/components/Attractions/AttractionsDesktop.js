@@ -23,19 +23,41 @@ const AttractionsDesktop = ({ AttractionsRef }) => {
           alt="Poznaj ścieżkę, która prowadzi do każdej atrakcji Parku!"
         />
         <div className="attraction">
+          <h3>Park trampolin</h3>
+          <p>
+            Ogromna przestrzeń, wypełniona
+            parkourem, trampolinami, koszykówką, a także miejscem do robienia
+            salt, fiflaków po, których bezpiecznie wylądujesz na poduchę.
+            To miejsce pełne energii, rozrywki i adrenaliny, stworzone zarówno dla
+            dzieci i dorosłych, lubiących aktywnie spędzać czas z rodziną i
+            przyjaciółmi.
+          </p>
+        </div>
+        <div className="attraction">
+          <h3>Plac zabaw</h3>
+          <p>
+            Mega duży, zadaszony plac zabaw o powierzchni 1200m<sup>2</sup>, w którym
+            znajduje się  mnóstwo rozmaitych atrakcji m.in. zjeżdżalnie, tory
+            przeszkód czy tor ninja. To wszystko w połączeniu z dobrym humorem
+            sprawi, że spędzisz tu niesamowity czas i niestraszna Ci będzie nawet
+            deszczowa pogoda.
+          </p>
+        </div>
+        <div className="attraction">
+          <h3>Autodrom</h3>
+          <p>
+            Atrakcja którą zna niemal każdy! To
+            must-have każdego parku rozrywki. Samochodowe szaleństwo, które od
+            ponad stu lat zachwyca dzieci i dorosłych na całym świecie. Dreszczyk
+            emocji i znakomita zabawa gwarantowana!
+          </p>
+        </div>
+        <div className="attraction">
           <h3>Zamek strachu</h3>
           <p>
             Niesamowity, mrożący krew w żyłach zamek strachu zaprasza do swoich
             komnat wszystkich odwiedzających nasz Park. Takie show trzeba
             przeżyć!
-          </p>
-        </div>
-        <div className="attraction">
-          <h3>Bajlandia</h3>
-          <p>
-            W tym samym budynku moc atrakcji dla najmłodszych. Bajlandia to
-            niepowtarzalna podróż do świata bajek widzianych w 3D. Bohaterowie
-            ukochanych kreskówek na wyciągnięcie ręki.
           </p>
         </div>
         <div className="attraction">
@@ -45,24 +67,6 @@ const AttractionsDesktop = ({ AttractionsRef }) => {
             Przejście pola do minigolfa jest atrakcyjnym sposobem spędzenia
             wolnego czasu na świeżym powietrzu wraz z rodziną lub znajomymi,
             rywalizacja sportowa na pewno dostarczy wielu emocji. 
-          </p>
-        </div>
-        <div className="attraction">
-          <h3>Ścieżka edukacyjna</h3>
-          <p>
-            Podróż w czasie, fascynująca
-            przygoda edukacyjna podczas spaceru ścieżką
-            edukacyjną, ze specjalnych tablic będziesz mógł poznać rodzaje drzew
-            i roślinności lasu, a także dowiesz się, jak powstało życie na
-            ziemi.
-          </p>
-        </div>
-        <div className="attraction">
-          <h3>Kino 7D max</h3>
-          <p>
-            To dopiero początek atrakcji. Załóż specjalne okulary i wstąp do
-            Kina 7D. Obraz, dźwięk, efekty specjalne. Czegoś takiego jeszcze nie
-            widziałeś.
           </p>
         </div>
         <div className="attraction">
@@ -83,33 +87,6 @@ const AttractionsDesktop = ({ AttractionsRef }) => {
           </p>
         </div>
         <div className="attraction">
-          
-        </div>
-        <div className="attraction">
-          <h3>Labirynt magicznych luster</h3>
-          <p>
-            Labirynt Magicznych Luster (nie mylić z gabinetem krzywych
-            zwierciadeł) to kolejna po “Szlaku Latarni Morskich” propozycja,
-            wprowadzana do Naszego Parku w 2018 roku! Wejdź i przekonaj się sam,
-            czym jest “złudzenie nieskończonego lustra”!
-          </p>
-        </div>
-        <div className="attraction">
-          <h3>Ogromne zjeżdżalnie wodne</h3>
-          <p>
-            Nasza lista atrakcji powiększyła się w ostatnich latach o dwie nowe
-            zjeżdżalnie pontonowe! Wyróżniającym elementem atrakcji jest zjazd w
-            ubraniach!
-          </p>
-        </div>
-        <div className="attraction">
-          <h3>Zjeżdżalnia 4 w 1</h3>
-          <p>
-            KAMIKAZE! – doskonała zabawa dla najodważniejszych, zjeżdżalnia
-            rodzinna, rura i speed to nasze sprawdzone pontonowe klasyki.
-          </p>
-        </div>
-        <div className="attraction">
           <h3>Zjeżdżalnia Boomerang</h3>
           <p>
             Zjeżdżalnia Boomerang to gwarancja dobrej
@@ -121,6 +98,23 @@ const AttractionsDesktop = ({ AttractionsRef }) => {
           </p>
         </div>
         <div className="attraction">
+          <h3>Zjeżdżalnia 4 w 1</h3>
+          <p>
+            KAMIKAZE! – doskonała zabawa dla najodważniejszych, zjeżdżalnia
+            rodzinna, rura i speed to nasze sprawdzone pontonowe klasyki.
+          </p>
+        </div>
+        <div className="attraction">
+          <h3>Ścieżka edukacyjna</h3>
+          <p>
+            Podróż w czasie, fascynująca
+            przygoda edukacyjna podczas spaceru ścieżką
+            edukacyjną, ze specjalnych tablic będziesz mógł poznać rodzaje drzew
+            i roślinności lasu, a także dowiesz się, jak powstało życie na
+            ziemi.
+          </p>
+        </div>
+        <div className="attraction">
           <h3>Koło młyńskie</h3>
           <p>
             Diabelski Młyn, wysoki na 27 metrów wyposażony w 20 gondoli stoi
@@ -128,22 +122,18 @@ const AttractionsDesktop = ({ AttractionsRef }) => {
           </p>
         </div>
         <div className="attraction">
-          <h3>Plac zabaw</h3>
-          <p>
-            Zostań archeologiem, wykop szkielet dinozaura. Plac zabaw – to
-            prawie 3000 m2, gdzie najmłodsi archeolodzy metodą odkrywkową
-            odnajdują szkielety dinozaurów, a miłośnicy przepraw i wspinaczek
-            chętnie zdobywają linaria i mini ścianki.
-          </p>
-        </div>
-        <div className="attraction">
-          
-          
-        </div>
-        <div className="attraction">
           <h3>Pojazd bajkowy</h3>
           <p>
             Wybierz się z nami w podróż do krainy bajek. 
+          </p>
+        </div>
+        <div className="attraction">
+          <h3>Labirynt magicznych luster</h3>
+          <p>
+            Labirynt Magicznych Luster (nie mylić z gabinetem krzywych
+            zwierciadeł) to kolejna po “Szlaku Latarni Morskich” propozycja,
+            wprowadzona do Naszego Parku w 2018 roku! Wejdź i przekonaj się sam,
+            czym jest “złudzenie nieskończonego lustra”!
           </p>
         </div>
         <div className="attraction">

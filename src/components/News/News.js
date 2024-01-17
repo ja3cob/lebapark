@@ -21,17 +21,20 @@ const News = ({ NewsRef }) => {
       <div className="news-item">
         <img src={News2} alt="Restauracje" />
         <p>
-          Chcesz zrobić sobie przerwę w zabawie lub nabrać sił na kolejną dawkę
-          emocji? Zatrzymaj się w jednym z barów usytuowanych na terenie całego
-          Łeba Parku. Najmłodsi i ich rodzice mają do wyboru kilka restauracji.
-          W menu frytki, pizza, Hamburgery i
-          zestawy obiadowe, które przekonają nawet największego niejadka.
+          Chcesz zrobić sobie krótką przerwę w zabawie lub nabrać sił na
+          kolejną dawkę emocji? Skorzystaj z naszej nowej strefy
+          gastronomicznej. Specjalnie dla Was stworzyliśmy zróżnicowane menu,
+          aby nikt nie wyszedł od nas głodny.
         </p>
         <p>
-          Fast Food – położony w pobliżu wejścia, jest doskonałym miejscem, aby
-          rozpocząć lub zakończyć dzień w Łeba Park.
+          Znajdziecie tu zestaw obiadowy, tradycyjne polskie pierogi, naleśniki
+          czy pizzę.
           <br />
-          Gospoda, Lodziarnia, Naleśnikarnia
+          Ci bardziej niecierpliwi mogą liczyć na klasyczne hamburgery, frytki i
+          hot-dogi.
+          <br />
+          Wisienką na torcie są przepyszne lody i gofry, których jak wiadomo
+          – nad morzem zabraknąć nie może.
         </p>
       </div>
       <div className="news-item">

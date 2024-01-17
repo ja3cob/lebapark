@@ -48,26 +48,23 @@ const SpecialOffers = ({ OffersRef }) => {
       <div className="specialOffer-item">
         <h3>WSZYSTKIE ATRAKCJE W CENIE BILETU</h3>
         <ul>
-          <li>Ogromne zjeżdżalnie wodne (zjazd w ubraniu),</li>
-          <li> bajlandia (zwiedzanie świata bajek w 3d),</li>
-          <li>zamek strachu,</li>
-          <li>
-            kino 7dMax (około 10 filmów do wyboru dla dzieci i dorosłych),
-          </li>
-          <li>eurobangee,</li>
-          <li>dmuchawce,</li>
-          <li>
-            największe w Polsce pole Minigolfa
-          </li>
-          <li>wstęp do galerii minerałów i skamielin,</li>
-          <li>pojazdy Flinstonów,</li>
-          <li>rowery wodne dla rodzin,</li>
-          <li>strzelanie z łuku i wiatrówki</li>
-          <li>kopalnia złota,</li>
-          <li>pojazdy wodne dla dzieci,</li>
-          <li>przejazd pojazdem bajkowym</li>
-          <li>wstęp na Diabelski Młyn (koło młyńskie) wysoki na 27 metrów!,</li>
-          <li>labirynt magicznych luster,</li>
+          <li>Zadaszony plac zabaw 1200m<sup>2</sup></li>
+          <li>Profesjonalny park trampolin</li>
+          <li>Autodrom</li>
+          <li>Ogromne zjeżdżalnie wodne (zjazd w ubraniu)</li>
+          <li>Zamek strachu</li>
+          <li>Eurobungee</li>
+          <li>Dmuchawce</li>
+          <li>Największe w Polsce pole Minigolfa</li>
+          <li>Wstęp do galerii minerałów i skamielin</li>
+          <li>Pojazdy Flinstonów</li>
+          <li>Rowery wodne dla rodzin</li>
+          <li>Strzelanie z wiatrówki</li>
+          <li>Kopalnia złota</li>
+          <li>Pojazdy wodne dla dzieci</li>
+          <li>Przejazd pojazdem bajkowym</li>
+          <li>Wstęp na Diabelski Młyn (koło młyńskie) wysoki na 27 metrów!</li>
+          <li>Labirynt magicznych luster</li>
         </ul>
       </div>
     </div>

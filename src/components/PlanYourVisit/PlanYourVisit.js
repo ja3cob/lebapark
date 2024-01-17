@@ -35,7 +35,9 @@ const PlanYourVisit = ({ VisitRef, AttractionsRef }) => {
 					odkrytych, pełnych żywiołowych reakcji.
 					<br />
 					<br />
-					Zaplanuj czas na nowe atrakcje: gigantyczne zjeżdżalnie wodne,
+					Zaplanuj czas na nowe atrakcje: autodrom, profesjonalny park trampolin,
+					mega duży zadaszony plac zabaw o powierzchni 1200m<sup>2</sup>,
+					gigantyczne zjeżdżalnie wodne,
 					największe pole do mini golfa w Polsce.
 					<br />
 					<br />
@@ -55,16 +57,16 @@ const PlanYourVisit = ({ VisitRef, AttractionsRef }) => {
 					<div className='visit-header'>
 						<img src={VisitHeader2} alt='Kalendarz' />
 					</div>
-					<h4>od 22 kwietnia do 28 kwietnia: 9:00 – 16:00</h4>
+					<h4>od 20 kwietnia do 26 kwietnia: 9:00 – 16:00</h4>
 					<p>park należy opuścić do 17:30</p>
-					<h4>od 29 kwietnia do 23 czerwca: 9:00 – 17:00</h4>
+					<h4>od 27 kwietnia do 21 czerwca: 9:00 – 17:00</h4>
 					<p>park należy opuścić do 18:30</p>
-					<h4>od 24 czerwca do 27 sierpnia: 9:00 – 19:00</h4>
+					<h4>od 22 czerwca do 25 sierpnia: 9:00 – 19:00</h4>
 					<p>park należy opuścić do 20:30</p>
-					<h4>od 28 sierpnia do 10 września: 9:00 – 16:00</h4>
+					<h4>od 26 sierpnia do 29 września: 9:00 – 16:00</h4>
 					<p>park należy opuścić do 17:30</p>
 
-					<h4>od 11 września park jest nieczynny</h4>
+					<h4>od 30 września park jest nieczynny</h4>
 				</div>
 				<div className='visit-item'>
 					<div className='visit-header'>
