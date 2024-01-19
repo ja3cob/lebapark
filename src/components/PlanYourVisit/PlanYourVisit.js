@@ -1,10 +1,8 @@
 import VisitHeader1 from '../../assets/visit-header1.png';
 import VisitHeader2 from '../../assets/visit-header2.png';
 import VisitHeader3 from '../../assets/visit-header3.png';
-import VisitHeader4 from '../../assets/visit-header4.png';
 import VisitLink1 from '../../assets/visit-link1.png';
 import VisitLink2 from '../../assets/visit-link2.png';
-import ParkMap from '../../assets/mapa-parku.jpg';
 import Separator1 from '../../assets/attractions-separator1.png';
 import Separator2 from '../../assets/attractions-separator2.png';
 import { Scene } from 'react-scrollmagic';
@@ -38,7 +36,7 @@ const PlanYourVisit = ({ VisitRef, AttractionsRef }) => {
 					Zaplanuj czas na nowe atrakcje: autodrom, profesjonalny park trampolin,
 					mega duży zadaszony plac zabaw o powierzchni 1200m<sup>2</sup>,
 					gigantyczne zjeżdżalnie wodne,
-					największe pole do mini golfa w Polsce.
+					pole do mini golfa.
 					<br />
 					<br />
 					Czas zwiedzania Parku to ok 4 – 6 godzin… nie oznacza to, że w tym
@@ -49,7 +47,7 @@ const PlanYourVisit = ({ VisitRef, AttractionsRef }) => {
 					parku za darmo. Parkujemy w centrum Łeby – ulica Wojska Polskiego
 					(obok pizzerii Lider). Pierwszy przejazd wykonujemy o godzinie{' '}
 					<span>9:00</span>, busy odjeżdżają <span>co 10 minut</span> (wg.
-					zajętości pojazdów, do końca sierpnia).
+					zajętości pojazdów, od wakacji do końca sierpnia).
 				</p>
 			</div>
 			<div className='visit-items'>

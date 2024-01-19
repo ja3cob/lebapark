@@ -9,6 +9,7 @@ const News = ({ NewsRef }) => {
       <Scene duration={630} classToggle={['.nav-3', 'active']}>
         <div className="news-item">
           <img src={News1} alt="Aktualności" />
+          <h2>AKTUALNOŚCI</h2>
           <h5>Wszystkie atrakcje w cenie biletu!</h5>
           <p>
             + bezpłatny przejazd z Łeby DINOBUSEM! Busy odjeżdżają z ul.Wojska
@@ -20,6 +21,7 @@ const News = ({ NewsRef }) => {
       </Scene>
       <div className="news-item">
         <img src={News2} alt="Restauracje" />
+        <h2>Przystanek na małe co nieco...</h2>
         <p>
           Chcesz zrobić sobie krótką przerwę w zabawie lub nabrać sił na
           kolejną dawkę emocji? Skorzystaj z naszej nowej strefy
@@ -39,6 +41,7 @@ const News = ({ NewsRef }) => {
       </div>
       <div className="news-item">
         <img src={News3} alt="Sklepy" />
+        <h2>SKLEPY</h2>
         <p>
           Koszulka, puzzle czy kubek z dinozaurem ?<br />A może bursztynowa
           biżuteria?
@@ -52,6 +55,7 @@ const News = ({ NewsRef }) => {
       </div>
       <div className="news-item">
         <img src={News4} alt="Nocleg" />
+        <h2>NOCLEG</h2>
         <p>
           Chcesz zostać na dłużej? Naszym gościom oferujemy rodzinny pobyt w
           kameralnym{' '}

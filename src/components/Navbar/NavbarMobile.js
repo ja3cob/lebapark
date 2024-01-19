@@ -4,7 +4,6 @@ const NavbarMobile = ({ refs }) => {
   const [
     HeroRef,
     AttractionsRef,
-    AnimationsRef,
     NewsRef,
     OffersRef,
     VisitRef,
