@@ -313,6 +313,17 @@ sup {
 	margin: 0;
 	padding: 0 15px;
 	font-size: 20px;
+	position: relative;
+}
+.attraction:nth-child(3) h3::after,
+.attraction:nth-child(5) h3::after,
+.attraction:nth-child(7) h3::after {
+	content: "Nowość!";
+	color: red;
+	position: absolute;
+	font-size: 0.7rem;
+	top: 80%;
+	right: 38%;
 }
 .attraction-name-noimg {
 	margin: 0 0 20px 0;
@@ -405,6 +416,17 @@ sup {
 	max-width: 400px;
 	margin: 15px auto;
 }
+.news-item h2 {
+	position: absolute;
+	top: 15%;
+	left: 10%;
+	transform: rotate(-5deg);
+	max-width: 200px;
+	text-align: center;
+}
+.news-item:nth-of-type(2) h2 {
+	top: 11%;
+}
 .news-item p {
 	position: absolute;
 	left: 25px;
@@ -467,9 +489,6 @@ sup {
 .specialOffers-img {
 	max-width: 180px;
 	margin: 0 auto;
-}
-.specialOffer-item-first {
-	margin: 15px auto 35px auto !important;
 }
 .specialOffer-item {
 	margin: 35px auto;
@@ -846,6 +865,11 @@ footer p {
 		color: var(--header);
 		position: relative;
 	}
+	.attraction:nth-child(3) h3::after,
+	.attraction:nth-child(5) h3::after,
+	.attraction:nth-child(7) h3::after {
+		content: "";
+	}
 	.attraction:nth-of-type(-n + 3) h3::after {
 		content: "Nowość!";
 		color: red;
@@ -1115,13 +1139,11 @@ footer p {
 		grid-column: 2 / 4;
 		grid-row: 1 / 3;
 	}
-	.specialOffer-item,
-	.specialOffer-item-first {
+	.specialOffer-item {
 		margin: 0;
 		padding: 0;
 	}
-	.specialOffer-item:nth-of-type(4),
-	.specialOffer-item:nth-of-type(5) {
+	.specialOffer-item {
 		grid-column: 1 / 5;
 	}
 
