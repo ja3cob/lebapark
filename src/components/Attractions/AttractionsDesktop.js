@@ -7,7 +7,7 @@ import { Scene } from 'react-scrollmagic';
 const AttractionsDesktop = ({ AttractionsRef }) => {
   return (
     <div className="attractions-container" ref={AttractionsRef}>
-      <Scene duration={3888} classToggle={['.nav-2', 'active']}>
+      <Scene duration={4477} classToggle={['.nav-2', 'active']}>
         <div className="attractions-start">
           <img src={AttractionsStart} alt="Spotkaj dinozaury w skali 1:1!" />
           <img

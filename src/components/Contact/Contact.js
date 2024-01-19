@@ -5,7 +5,7 @@ const Contact = ({ ContactRef }) => {
   return (
     <div className="contact-container" ref={ContactRef}>
       <div className="contact-text">
-        <Scene duration={700} classToggle={['.nav-7', 'active']}>
+        <Scene duration={875} classToggle={['.nav-6', 'active']}>
           <div className="contact-header">
             <img src={ContactHeader} alt="Kontakt" />
           </div>

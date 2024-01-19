@@ -3,28 +3,7 @@ import { Scene } from 'react-scrollmagic';
 const SpecialOffers = ({ OffersRef }) => {
   return (
     <div className="specialOffers-container" ref={OffersRef}>
-      <Scene duration={1100} classToggle={['.nav-5', 'active']}>
-        <div className="specialOffers-img">
-          <img
-            src={SpecialOffersHeader}
-            alt="Oferty specjalne jakie oferuje park."
-          />
-        </div>
-      </Scene>
-      <div className="specialOffer-item specialOffer-item-first">
-        <h3>GRUPY</h3>
-        <p>
-          Zapraszamy nauczycieli do realizowania lekcji biologii, historii,
-          fizyki w Łeba Park.
-        </p>
-      </div>
-      <div className="specialOffer-item">
-        <h3>URODZINY</h3>
-        <p>
-          Spełnij marzenia małego miłośnika dinozaurów. Zrób prezent urodzinowy,
-          kup bilety do Parku Dinozaurów.
-        </p>
-      </div>
+      <Scene duration={1063} classToggle={['.nav-4', 'active']}>
       <div className="specialOffer-item">
         <h3>W CENIE NOCLEGU W GRAND ŁEBA wstęp do Parku GRATIS!*</h3>
         <p>

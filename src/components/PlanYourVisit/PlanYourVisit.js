@@ -15,7 +15,7 @@ const PlanYourVisit = ({ VisitRef, AttractionsRef }) => {
 				<img src={Separator1} alt='Początek sekcji Zaplanuj wizytę' />
 			</div>
 			<div className='visit-section'>
-				<Scene duration={1600} classToggle={['.nav-6', 'active']}>
+				<Scene duration={1726} classToggle={['.nav-5', 'active']}>
 					<div className='visit-header'>
 						<img src={VisitHeader1} alt='Zaplanuj swoją wizytę.' />
 					</div>

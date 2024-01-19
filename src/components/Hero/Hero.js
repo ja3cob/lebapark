@@ -5,7 +5,7 @@ import { Scene } from 'react-scrollmagic';
 const Hero = ({ HeroRef }) => {
 	return (
 		<div className='hero-container' ref={HeroRef}>
-			<Scene duration={850} classToggle={['.nav-1', 'active']}>
+			<Scene duration={853} classToggle={['.nav-1', 'active']}>
 				<div className='hero-logo'>
 					<img src={Logo} alt='Logo parku dinozaurów Łeba' />
 				</div>
