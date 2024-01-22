@@ -21,7 +21,7 @@ const Contact = ({ ContactRef }) => {
             <br />
             <span>e-mail: lebapark@lebapark.pl</span>
             <br />
-            ul. Kolonijna 24, Nowęcin k. Łeby
+            ul. Kolonijna 24A, Nowęcin k. Łeby
           </p>
           <p>
             <strong>Rezerwacja pobytu</strong> w hotelu{' '}

@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.7b20b455.css",
-    "main.js": "/static/js/main.f45746ea.js",
+    "main.css": "/static/css/main.48b16ddb.css",
+    "main.js": "/static/js/main.89031324.js",
     "static/media/attraction17.png": "/static/media/attraction17.f79032840bf83fb066e8.png",
     "static/media/attraction18.png": "/static/media/attraction18.489e47c6afd4c9c3d378.png",
-    "static/media/mapa-parku.jpg": "/static/media/mapa-parku.86966b997436259e5b17.jpg",
     "static/media/attraction19.png": "/static/media/attraction19.e1440ba5d08e687f02cf.png",
     "static/media/logo.png": "/static/media/logo.6483c6f51893a266cab3.png",
     "static/media/attraction13.png": "/static/media/attraction13.90f128eb06158bcc9ff0.png",
@@ -13,8 +12,6 @@
     "static/media/attraction9.png": "/static/media/attraction9.76f5f749b0a2cace01eb.png",
     "static/media/attraction4.png": "/static/media/attraction4.152155df02bd88bef0cc.png",
     "static/media/attraction12.png": "/static/media/attraction12.fb4e56d00a0908c1cfce.png",
-    "static/media/visit-header4.png": "/static/media/visit-header4.96ae9ad6e274a8cd53c5.png",
-    "static/media/specialOffers-header.png": "/static/media/specialOffers-header.6184eea1fad541dd35a5.png",
     "static/media/attraction10.png": "/static/media/attraction10.ef3c0233771e25d66927.png",
     "static/media/hero.png": "/static/media/hero.2f669ab57d8eb6a3d1f8.png",
     "static/media/attraction6.png": "/static/media/attraction6.a909746ba6da84e6004c.png",
@@ -24,16 +21,16 @@
     "static/media/attraction15.png": "/static/media/attraction15.4adcfbe6c96b21236ab0.png",
     "static/media/attraction5.png": "/static/media/attraction5.4055363d30388129de11.png",
     "static/media/attraction1.png": "/static/media/attraction1.92333f3dbcd139f208a7.png",
-    "static/media/news-2.png": "/static/media/news-2.e7402196216e791df5d5.png",
     "static/media/visit-header2.png": "/static/media/visit-header2.6254b28d4c98ace82e1d.png",
-    "static/media/news-3.png": "/static/media/news-3.9dadd8212cc7625f43c7.png",
-    "static/media/news-4.png": "/static/media/news-4.d9ccec3bbe3c04219843.png",
-    "static/media/news-1.png": "/static/media/news-1.fe254a33dba7f4fde446.png",
+    "static/media/news-2.png": "/static/media/news-2.d7347819f77300ee0582.png",
+    "static/media/news-3.png": "/static/media/news-3.d8b1368028512d886737.png",
     "static/media/attraction11.png": "/static/media/attraction11.ffd3bb936764553f89e5.png",
     "static/media/attraction14.png": "/static/media/attraction14.e18990ac570a9454c698.png",
     "static/media/attractions_end.png": "/static/media/attractions_end.c2175d7e563f6b6c764d.png",
+    "static/media/news-4.png": "/static/media/news-4.8a340e4040c0a347ef17.png",
     "static/media/contact-header.png": "/static/media/contact-header.f58bb7c61bfe03a3f770.png",
     "static/media/attraction3.png": "/static/media/attraction3.95e38207590952e7f742.png",
+    "static/media/news-1.png": "/static/media/news-1.192faace02f15ed25b8a.png",
     "static/media/visit-header3.png": "/static/media/visit-header3.eaa90be020fc73286275.png",
     "static/media/attraction2.png": "/static/media/attraction2.785b525079bed14b64cb.png",
     "static/media/pfr.png": "/static/media/pfr.b6b3111b3f171865e1be.png",
@@ -43,11 +40,11 @@
     "static/media/visit-link1.png": "/static/media/visit-link1.a4fbf060a947751f8778.png",
     "static/media/visit-link2.png": "/static/media/visit-link2.4093e20fc77f9d82ca95.png",
     "index.html": "/index.html",
-    "main.7b20b455.css.map": "/static/css/main.7b20b455.css.map",
-    "main.f45746ea.js.map": "/static/js/main.f45746ea.js.map"
+    "main.48b16ddb.css.map": "/static/css/main.48b16ddb.css.map",
+    "main.89031324.js.map": "/static/js/main.89031324.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b20b455.css",
-    "static/js/main.f45746ea.js"
+    "static/css/main.48b16ddb.css",
+    "static/js/main.89031324.js"
   ]
 }
