@@ -311,9 +311,12 @@ sup {
 	text-align: center;
 	color: var(--header);
 	margin: 0;
-	padding: 0 15px;
 	font-size: 20px;
 	position: relative;
+}
+.attraction h3 {
+	width: fit-content;
+	margin: 0 auto;
 }
 .attraction:nth-child(3) h3::after,
 .attraction:nth-child(5) h3::after,
@@ -323,7 +326,7 @@ sup {
 	position: absolute;
 	font-size: 0.7rem;
 	top: 80%;
-	right: 38%;
+	right: -10%;
 }
 .attraction-name-noimg {
 	margin: 0 0 20px 0;
@@ -336,6 +339,10 @@ sup {
 	padding: 15px;
 	max-width: 180px;
 	margin: 0 auto;
+}
+.attraction:nth-child(3) .attraction-img,
+.attraction:nth-child(5) .attraction-img {
+	max-width: 280px;
 }
 .attraction-info {
 	color: var(--main);
@@ -876,7 +883,7 @@ footer p {
 		position: absolute;
 		font-size: 0.7rem;
 		top: 80%;
-		right: 28%;
+		right: -10%;
 	}
 	.attraction p {
 		color: var(--main);
