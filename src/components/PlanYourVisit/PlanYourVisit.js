@@ -47,7 +47,14 @@ const PlanYourVisit = ({ VisitRef, AttractionsRef }) => {
 					parku za darmo. Parkujemy w centrum Łeby – ulica Wojska Polskiego
 					(obok pizzerii Lider). Pierwszy przejazd wykonujemy o godzinie{' '}
 					<span>9:00</span>, busy odjeżdżają <span>co 10 minut</span> (wg.
-					zajętości pojazdów, od wakacji do końca sierpnia).
+					zajętości pojazdów).
+					<br />
+					<br />
+					Busy Łeba Parku kursują w terminach:
+					<br />
+					27.04 - 05.05
+					<br />
+					30.05 - 31.08
 				</p>
 			</div>
 			<div className='visit-items'>
@@ -87,8 +94,9 @@ const PlanYourVisit = ({ VisitRef, AttractionsRef }) => {
 						<span>WSZYSTKIE** atrakcje w cenie biletu!</span>
 					</h4>
 					<p>
-						+ bezpłatnie przejazd z Łeby DINO BUSEM! (do ostatniego dnia sierpnia)
-						<br />+ niestrzeżony parking (dla zwiedzających, otwarty w godzinach
+						+ bezpłatnie przejazd z Łeby DINO BUSEM! (w terminach 27.04-05.05 i 30.05-31.08)
+						<br />
+						+ niestrzeżony parking (dla zwiedzających, otwarty w godzinach
 						pracy parku) GRATIS!
 					</p>
 				</div>

@@ -58,7 +58,7 @@ const Contact = ({ ContactRef }) => {
         ></iframe>
       </div>
       <p className="contact-reason">
-        Dyrekcja Parku dokłada wszelkich starań, aby utrzymać w ciągłej pracy
+        ** Dyrekcja Parku dokłada wszelkich starań, aby utrzymać w ciągłej pracy
         całą infrastrukturę. Informujemy, iż z przyczyn technicznych i/lub
         pogodowych niektóre z atrakcji mogą być niedostępne. Bezpieczeństwo
         przede wszystkim! W razie braku dostępności niektórych z atrakcji, nie
