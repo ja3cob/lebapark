@@ -43,7 +43,7 @@ const App = () => {
 		return () => window.removeEventListener('resize', debouncedHandleResize);
 	}, [width]);
 
-	// modal - online tickets & cookies
+	// cookies
 	useEffect(() => {
 		if (!cookies.CookiesParkLeba) {
 			const cookiesBtn = document.querySelector('.cookies button');
@@ -51,27 +51,6 @@ const App = () => {
 				cookiesBtn.parentElement.style.display = 'none';
 			});
 		}
-
-		const navbarLinks = document.querySelectorAll('.open-modal');
-		const modal = document.querySelector('#droplabsModal');
-		const veil = document.querySelector('.veil');
-		const btn = document.querySelector('.covid-button');
-		const closeModal = document.querySelector('.closeModal');
-		navbarLinks.forEach(link => {
-			link.addEventListener('click', () => {
-				modal.style.display = 'block';
-				veil.style.display = 'block';
-				window.scrollTo(0, 100);
-			});
-		});
-		btn.addEventListener('click', () => {
-			modal.style.display = 'block';
-			veil.style.display = 'block';
-		});
-		closeModal.addEventListener('click', () => {
-			modal.style.display = 'none';
-			veil.style.display = 'none';
-		});
 	});
 
 	// references - scroll to section after navbar clicked
