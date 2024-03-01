@@ -1,6 +1,7 @@
 import Logo from '../../assets/logo.png';
 import Covid from '../../assets/hero.png';
 import Lead from '../../assets/lead.png';
+import Map from '../../assets/mapa-thumb.jpg';
 import { Scene } from 'react-scrollmagic';
 const Hero = ({ HeroRef }) => {
 	return (
@@ -18,6 +19,12 @@ const Hero = ({ HeroRef }) => {
 
         <h2 className="covid-button">KUP BILET ONLINE</h2>
       </div>
+      <div className='hero-map'>
+				<h3>Plan parku</h3>
+				<a href='/mapa.jpg'>
+					<img src={Map} alt='Mapa parku' />
+				</a>
+			</div>
       <div className="hero-lead">
         <p className="lead-info">
           Wizyta u nas to niezwykła, fantastyczna przygoda w przeszłość, aż do
