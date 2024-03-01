@@ -253,9 +253,6 @@ sup {
 .covid-button:hover {
 	color: var(--main);
 }
-.hero-map {
-	margin-bottom: 50px;
-}
 
 .hero-map h3 {
 	color: var(--header);
