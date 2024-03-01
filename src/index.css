@@ -596,6 +596,7 @@ sup {
 	font-size: 20px;
 	color: var(--header);
 	margin: 25px 0 10px 0;
+	text-align: center;
 }
 .visit-item ul {
 	padding: 0 15px;
@@ -620,6 +621,29 @@ sup {
 	text-decoration: none;
 	color: var(--main);
 	padding: 8px;
+}
+
+.visit-map {
+	margin-bottom: 50px;
+}
+
+.visit-map h3 {
+	color: var(--header);
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.visit-map img {
+	width: calc(100% - 2 * 5px);
+	margin: 5px;
+	cursor: pointer;
+	transition: all 0.3s;
+	border: 1px solid var(--orange);
+	padding: 1px;
+}
+
+.visit-map img:hover {
+	box-shadow: 0 0 10px 5px var(--orange);
 }
 
 /* 2.9 - contact */
@@ -1200,7 +1224,6 @@ footer p {
 	}
 	.visit-item-additional .visit-additional {
 		grid-column: 2;
-		text-align: left;
 		margin: 0 0 0 0;
 	}
 	.visit-item-additional .visit-header {

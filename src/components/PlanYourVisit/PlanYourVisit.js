@@ -118,6 +118,13 @@ const PlanYourVisit = ({ VisitRef, AttractionsRef }) => {
 					<img src={VisitLink2} alt='Kup bilety online!' />
 				</button>
 			</div>
+			<div className='visit-map'>
+				<h3>Plan parku</h3>
+				<a href='/mapa.jpg'>
+					<img src='/mapa.jpg' alt='Mapa parku' />
+				</a>
+			</div>
+
 			<div className='visit-item visit-item-additional'>
 				<h3 className='visit-additional'>Informacje dodatkowe</h3>
 				{/* <div className='visit-header'> */}
