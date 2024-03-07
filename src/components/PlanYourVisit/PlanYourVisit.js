@@ -131,16 +131,13 @@ const PlanYourVisit = ({ VisitRef, AttractionsRef }) => {
 						każda osoba obsługi wyposażona jest w znakowany logo parku ubiór.
 					</li>
 					<li>
-						na terenie Łeba Parku istnieje możliwość płatności kartą (usługa
-						dostępna w wybranych punktach: Kasa biletowa, Statek, Lodziarnia,
-						Restauracja, Fast Food, Galeria )
+						na terenie Łeba Parku istnieje możliwość płatności kartą
 					</li>
 					<li>
 						Łeba Park posiada wszelkie udogodnienia dla osób niepełnosprawnych,
 					</li>
 					<li>
-						przed Łeba Parkiem czekają na Państwa dwa, duże i bezpłatne parkingi
-						z miejscami dla osób niepełnosprawnych oraz parking dla autokarów,
+						przed Łeba Parkiem czeka na Państwa parking,
 					</li>
 					<li>na terenie Łeba Parku obowiązuje zakaz wstępu ze zwierzętami.</li>
 				</ul>

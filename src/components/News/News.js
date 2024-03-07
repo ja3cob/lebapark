@@ -43,8 +43,7 @@ const News = ({ NewsRef }) => {
         <img src={News3} alt="Sklepy" />
         <h2>SKLEPY</h2>
         <p>
-          Koszulka, puzzle czy kubek z dinozaurem ?<br />A może bursztynowa
-          biżuteria?
+          Koszulka, puzzle czy kubek z dinozaurem ?
         </p>
         <p>
           Nasz sklep z pamiątkami pozwoli na dłużej zachować wspomnienia z

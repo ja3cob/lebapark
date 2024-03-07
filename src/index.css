@@ -979,7 +979,7 @@ footer p {
 	}
 	.attraction:nth-of-type(15) {
 		top: 93.5%;
-		left: 0;
+		left: -15px;
 		max-width: 410px;
 	}
 	.end-img {

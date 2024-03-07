@@ -130,10 +130,7 @@ const AttractionsDesktop = ({ AttractionsRef }) => {
         <div className="attraction">
           <h3>Labirynt magicznych luster</h3>
           <p>
-            Labirynt Magicznych Luster (nie mylić z gabinetem krzywych
-            zwierciadeł) to kolejna po “Szlaku Latarni Morskich” propozycja,
-            wprowadzona do Naszego Parku w 2018 roku! Wejdź i przekonaj się sam,
-            czym jest “złudzenie nieskończonego lustra”!
+            Wejdź i przekonaj się sam, czym jest “złudzenie nieskończonego lustra”!
           </p>
         </div>
         <div className="attraction">
@@ -143,7 +140,7 @@ const AttractionsDesktop = ({ AttractionsRef }) => {
             znajdujących się u wybrzeża polskiej części Bałtyku w jeden dzień?
             TAK! Tylko w Łeba Park wybierzesz się w podróż w koło miniatur
             latarni morskich znajdujących się na terenie Naszego Parku. Szlak
-            latarni to 16 miniatur rozmieszczonych w koło basenów wodnych
+            latarni to miniatury rozmieszczone w koło basenów wodnych
             naszego parku do których dopłyniesz dostępnymi na miejscu rowerami
             wodnymi. Szlak dostępny jest również z poziomu wytyczonej ścieżki na
             lądzie.
