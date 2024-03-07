@@ -686,16 +686,13 @@ sup {
 
 footer {
 	width: 100vw;
-	height: 55px;
 	background: var(--main);
 	color: var(--white);
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	padding: 20px 0;
 }
 footer p {
+	margin: 0;
 	font-size: 12px;
-	max-width: 250px;
 	text-align: center;
 }
 @media (max-width: 350px) {

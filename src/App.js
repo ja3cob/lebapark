@@ -86,7 +86,8 @@ const App = () => {
 				<Contact ContactRef={ContactRef} />
 			</div>
 			<footer>
-				<p>Wszystkie prawa zastrzeżone. Copyright by Łeba Park © 2008-2024.</p>
+				<p>Wszystkie prawa zastrzeżone.</p>
+				<p>Copyright by Łeba Park © 2008-2024.</p>
 			</footer>
 		</Controller>
 	);
