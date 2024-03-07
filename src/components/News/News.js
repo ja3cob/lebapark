@@ -58,11 +58,11 @@ const News = ({ NewsRef }) => {
         <p>
           Chcesz zostać na dłużej? Naszym gościom oferujemy rodzinny pobyt w
           kameralnym{' '}
-          <a href="https://hotelnadmorskileba.com.pl/">Hotelu Nadmorskim</a> lub{' '}
+          <a href="https://hotelnadmorski.pl/">Hotelu Nadmorskim</a> lub{' '}
           <a href="https://www.grandleba.pl/">Grand Łeba</a>!
         </p>
         <p>
-          <a href="https://hotelnadmorskileba.com.pl/">Hotel Nadmorski</a> w
+          <a href="https://hotelnadmorski.pl/">Hotel Nadmorski</a> w
           Łebie proponuje przyjemne rodzinne pokoje, domową kuchnię oraz usługi
           dodatkowe (bilard, plac zabaw, bibliotekę). Obiekt przystosowany jest
           dla najmłodszych.
