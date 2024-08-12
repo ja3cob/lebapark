@@ -690,11 +690,18 @@ footer {
 	color: var(--white);
 	padding: 20px 0;
 }
-footer p {
+footer p,
+footer a {
 	margin: 0;
 	font-size: 12px;
 	text-align: center;
 }
+footer a {
+	color: var(--green);
+	display: block;
+	margin-bottom: 10px;
+}
+
 @media (max-width: 350px) {
 	.news-item p {
 		left: 20px;

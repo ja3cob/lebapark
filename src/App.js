@@ -86,6 +86,7 @@ const App = () => {
 				<Contact ContactRef={ContactRef} />
 			</div>
 			<footer>
+				<a href='standardy_ochrony_malotenich.pdf'>Standardy Ochrony Małoletnich</a>
 				<p>Wszystkie prawa zastrzeżone.</p>
 				<p>Copyright by Łeba Park © 2008-2024.</p>
 			</footer>
