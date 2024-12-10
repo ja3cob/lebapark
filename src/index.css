@@ -17,7 +17,10 @@
 body {
 	margin: 0;
 	font-family: 'Pangolin';
+}
+.content-wrapper {
 	background: var(--theme);
+	padding-top: 20px;
 }
 #root {
 	overflow: hidden;
@@ -208,16 +211,37 @@ sup {
 }
 /* 2.3 - hero */
 .hero-container {
-	margin: 80px 0 0 0;
+	margin-top: 60px;
+	position: relative;
 }
+
+.hero-video {
+	text-align: center;
+	z-index: -1;
+	position: fixed;
+	left: 0;
+	width: 100%;
+}
+.hero-video video {
+	width: 100%;
+	height: calc(100vh - 60px);
+	object-fit: cover;
+}
+
+.hero-before-logo {
+	height: calc(100vh - 60px);
+}
+
 .hero-logo,
 .hero-logo img,
 .hero-covid img {
 	width: 100%;
 }
 .hero-logo {
-	margin: 30px auto 0 auto;
-	max-width: 500px;
+	margin: 0 auto;
+	height: calc(100vh - 60px);
+	position: relative;
+	border-top: 1px solid red;
 }
 .hero-covid {
 	max-width: 360px;
@@ -841,8 +865,8 @@ footer a {
 	}
 	.hero-covid {
 		position: absolute;
-		top: 122px;
-		right: -12px;
+		top: 80px;
+		right: -150px;
 		width: 380px;
 		margin: 0;
 	}
