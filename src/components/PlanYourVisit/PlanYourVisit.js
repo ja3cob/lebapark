@@ -62,16 +62,22 @@ const PlanYourVisit = ({ VisitRef, AttractionsRef }) => {
 					<div className='visit-header'>
 						<img src={VisitHeader2} alt='Kalendarz' />
 					</div>
-					<h4>od 20 kwietnia do 26 kwietnia: 9:00 – 16:00</h4>
+					<h4>od 19 kwietnia do 30 kwietnia: 9:00 – 16:00</h4>
 					<p>park należy opuścić do 17:30</p>
-					<h4>od 27 kwietnia do 21 czerwca: 9:00 – 17:00</h4>
+					<h4>od 1 maja do 4 maja: 9:00 – 17:00</h4>
 					<p>park należy opuścić do 18:30</p>
-					<h4>od 22 czerwca do 25 sierpnia: 9:00 – 19:00</h4>
-					<p>park należy opuścić do 20:30</p>
-					<h4>od 26 sierpnia do 29 września: 9:00 – 16:00</h4>
+					<h4>od 5 maja do 18 czerwca: 9:00 – 16:00</h4>
 					<p>park należy opuścić do 17:30</p>
+					<h4>od 19 czerwca do 27 czerwca: 9:00 – 17:00</h4>
+					<p>park należy opuścić do 18:30</p>
+					<h4>od 28 czerwca do 24 sierpnia: 9:00 – 18:30</h4>
+					<p>park należy opuścić do 19:30</p>
+					<h4>od 25 sierpnia do 7 września: 9:00 – 16:00</h4>
+					<p>park należy opuścić do 17:30</p>
+					<h4>od 8 września do 28 września: 9:00 – 15:30</h4>
+					<p>park należy opuścić do 16:30</p>
 
-					<h4>od 30 września park jest nieczynny</h4>
+					<h4>od 29 września park jest nieczynny</h4>
 				</div>
 				<div className='visit-item'>
 					<div className='visit-header'>
