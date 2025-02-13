@@ -211,13 +211,19 @@ sup {
 	margin: 80px 0 0 0;
 }
 .hero-logo,
-.hero-logo img,
 .hero-covid img {
 	width: 100%;
 }
 .hero-logo {
 	margin: 30px auto 0 auto;
 	max-width: 500px;
+	display: grid;
+	justify-items: center;
+}
+.hero-logo img {
+	max-width: 100%;
+	max-height: calc(100vh - 100px);
+	margin: 0 auto;
 }
 .hero-covid {
 	max-width: 360px;
