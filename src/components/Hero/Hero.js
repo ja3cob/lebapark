@@ -14,7 +14,7 @@ const Hero = ({ HeroRef }) => {
 			<div className='hero-covid'>
 				<img
 					src={Covid}
-					alt='Informacje o pracy parku podczas pandemii oraz możliwość zakupienia biletu online'
+					alt='Możliwość zakupienia biletu online'
 				/>
 
         <h2 className="covid-button">KUP BILET ONLINE</h2>

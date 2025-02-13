@@ -88,7 +88,7 @@ const App = () => {
 			<footer>
 				<a href='standardy_ochrony_malotenich.pdf'>Standardy Ochrony Małoletnich</a>
 				<p>Wszystkie prawa zastrzeżone.</p>
-				<p>Copyright by Łeba Park © 2008-2024.</p>
+				<p>Copyright by Łeba Park © 2008-2025.</p>
 			</footer>
 		</Controller>
 	);
