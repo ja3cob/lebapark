@@ -3,6 +3,8 @@ import Covid from '../../assets/hero.png';
 import Lead from '../../assets/lead.png';
 import Map from '../../assets/mapa-thumb.jpg';
 import { Scene } from 'react-scrollmagic';
+import Video from '../../assets/hero.webm';
+
 const Hero = ({ HeroRef }) => {
 	return (
 		<div className='hero-container' ref={HeroRef}>
@@ -18,6 +20,10 @@ const Hero = ({ HeroRef }) => {
 				/>
 
         <h2 className="covid-button">KUP BILET ONLINE</h2>
+      </div>
+      <div className='hero-video'>
+        <h3>Zobacz filmik</h3>
+        <video className='hero-box' src={Video} autoPlay muted loop />
       </div>
       <div className='hero-map'>
 				<h3>Plan parku</h3>
