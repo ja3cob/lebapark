@@ -241,6 +241,7 @@ sup {
 	margin: 0 auto;
 	height: calc(100vh - 60px);
 	position: relative;
+	border-top: 1px solid red;
 }
 .hero-covid {
 	max-width: 360px;
