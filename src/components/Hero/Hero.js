@@ -1,7 +1,6 @@
 import Logo from "../../assets/logo.png";
 import Covid from "../../assets/hero.png";
-import Video from "../../assets/hero.webm";
-import Poster from "../../assets/hero-poster.webp";
+import Video from "../../assets/hero.mp4";
 import { Scene } from "react-scrollmagic";
 import { useInView } from "react-intersection-observer";
 import { useEffect, useRef, useState } from "react";
@@ -26,9 +25,8 @@ const Hero = ({ HeroRef }) => {
   return (
     <div className="hero-container">
         <div className="hero-video" ref={videoRef}>
-          <video poster={Poster} autoPlay loop muted>
+          <video autoPlay loop muted>
             <source src={Video} type="video/mp4" />
-            Your browser does not support the video tag.
           </video>
         </div>
         <div className="hero-before-logo" ref={HeroRef}></div>

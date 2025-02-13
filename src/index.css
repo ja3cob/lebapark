@@ -221,9 +221,8 @@ sup {
 	position: fixed;
 	left: 0;
 	width: 100%;
-	background-color: var(--theme);
 }
-.hero-video > * {
+.hero-video video {
 	width: 100%;
 	height: calc(100vh - 60px);
 	object-fit: cover;
