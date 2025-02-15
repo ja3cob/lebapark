@@ -3,7 +3,7 @@ import Covid from '../../assets/hero.png';
 import Lead from '../../assets/lead.png';
 import Map from '../../assets/mapa-thumb.jpg';
 import { Scene } from 'react-scrollmagic';
-import Video from '../../assets/hero.webm';
+import Video from '../../assets/hero.mp4';
 
 const Hero = ({ HeroRef }) => {
 	return (
