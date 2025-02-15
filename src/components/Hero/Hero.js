@@ -24,7 +24,10 @@ const Hero = ({ HeroRef }) => {
       </div>
       <div className='hero-video'>
         <h3>Zobacz filmik</h3>
-        <video className='hero-box' poster={Poster} src={Video} preload='auto' autoPlay muted loop />
+        <video className='hero-box' poster={Poster} preload='auto' autoPlay muted loop>
+          <source src={Video} type='video/mp4'/>
+          Your browser does not support the video tag.
+        </video>
       </div>
       <div className='hero-map'>
 				<h3>Plan parku</h3>
