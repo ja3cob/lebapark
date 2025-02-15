@@ -23,7 +23,7 @@ const Hero = ({ HeroRef }) => {
       </div>
       <div className='hero-video'>
         <h3>Zobacz filmik</h3>
-        <video className='hero-box' src={Video} autoPlay muted loop />
+        <video className='hero-box' src={Video} preload='metadata' autoPlay muted loop />
       </div>
       <div className='hero-map'>
 				<h3>Plan parku</h3>
