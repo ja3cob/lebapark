@@ -4,6 +4,7 @@ import Lead from '../../assets/lead.png';
 import Map from '../../assets/mapa-thumb.jpg';
 import { Scene } from 'react-scrollmagic';
 import Video from '../../assets/hero.mp4';
+import Poster from '../../assets/hero-poster.jpg'
 
 const Hero = ({ HeroRef }) => {
 	return (
@@ -23,7 +24,7 @@ const Hero = ({ HeroRef }) => {
       </div>
       <div className='hero-video'>
         <h3>Zobacz filmik</h3>
-        <video className='hero-box' src={Video} preload='metadata' autoPlay muted loop />
+        <video className='hero-box' poster={Poster} src={Video} preload='auto' autoPlay muted loop />
       </div>
       <div className='hero-map'>
 				<h3>Plan parku</h3>
