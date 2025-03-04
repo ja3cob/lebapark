@@ -8,7 +8,6 @@ import SpecialOffers from './components/SpecialOffers/SpecialOffers';
 import PlanYourVisit from './components/PlanYourVisit/PlanYourVisit';
 import Contact from './components/Contact/Contact';
 import { Controller } from 'react-scrollmagic';
-import ParkMap from './components/Hero/ParkMap';
 // function which limits resize event occurrence
 function debounce(fn, ms) {
 	let timer;
@@ -78,23 +77,19 @@ const App = () => {
 					<button onClick={handleCookie}>X</button>
 				</div>
 			)}
-
-			<Hero HeroRef={HeroRef} />
-			<div className='content-wrapper'>
-				<div className='content'>
-					<ParkMap />
-					<Attractions isMobile={isMobile} AttractionsRef={AttractionsRef} />
-					<News NewsRef={NewsRef} />
-					<SpecialOffers OffersRef={OffersRef} />
-					<PlanYourVisit VisitRef={VisitRef} AttractionsRef={AttractionsRef} />
-					<Contact ContactRef={ContactRef} />
-				</div>
-				<footer>
-					<a href='standardy_ochrony_malotenich.pdf'>Standardy Ochrony Małoletnich</a>
-					<p>Wszystkie prawa zastrzeżone.</p>
-					<p>Copyright by Łeba Park © 2008-2025.</p>
-				</footer>
+			<div className='content'>
+				<Hero HeroRef={HeroRef} />
+				<Attractions isMobile={isMobile} AttractionsRef={AttractionsRef} />
+				<News NewsRef={NewsRef} />
+				<SpecialOffers OffersRef={OffersRef} />
+				<PlanYourVisit VisitRef={VisitRef} AttractionsRef={AttractionsRef} />
+				<Contact ContactRef={ContactRef} />
 			</div>
+			<footer>
+				<a href='standardy_ochrony_malotenich.pdf'>Standardy Ochrony Małoletnich</a>
+				<p>Wszystkie prawa zastrzeżone.</p>
+				<p>Copyright by Łeba Park © 2008-2025.</p>
+			</footer>
 		</Controller>
 	);
 };

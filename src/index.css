@@ -17,10 +17,7 @@
 body {
 	margin: 0;
 	font-family: 'Pangolin';
-}
-.content-wrapper {
 	background: var(--theme);
-	padding-top: 20px;
 }
 #root {
 	overflow: hidden;
@@ -211,37 +208,22 @@ sup {
 }
 /* 2.3 - hero */
 .hero-container {
-	margin-top: 60px;
-	position: relative;
+	margin: 80px 0 0 0;
 }
-
-.hero-video {
-	text-align: center;
-	z-index: -1;
-	position: fixed;
-	left: 0;
-	width: 100%;
-	background-color: var(--theme);
-}
-.hero-video > * {
-	width: 100%;
-	height: calc(100vh - 60px);
-	object-fit: cover;
-}
-
-.hero-before-logo {
-	height: calc(100vh - 60px);
-}
-
 .hero-logo,
-.hero-logo img,
 .hero-covid img {
 	width: 100%;
 }
 .hero-logo {
+	margin: 30px auto 0 auto;
+	max-width: 500px;
+	display: grid;
+	justify-items: center;
+}
+.hero-logo img {
+	max-width: 100%;
+	max-height: calc(100vh - 100px);
 	margin: 0 auto;
-	height: calc(100vh - 60px);
-	position: relative;
 }
 .hero-covid {
 	max-width: 360px;
@@ -278,20 +260,33 @@ sup {
 	color: var(--main);
 }
 
+.hero-box {
+	width: calc(100% - 2 * 5px);
+	margin: 5px;
+	transition: all 0.3s;
+	border: 2px solid var(--orange);
+	padding: 1px;
+	border-radius: 20px;
+}
+
+.hero-video {
+	margin-top: 80px;
+}
+
+.hero-video > video {
+	object-fit: cover;
+	max-height: 80vh;
+}
+
+.hero-video h3,
 .hero-map h3 {
 	color: var(--header);
 	text-align: center;
 	margin-bottom: 0;
 }
 .hero-map img {
-	width: calc(100% - 2 * 5px);
-	margin: 5px;
 	cursor: pointer;
-	transition: all 0.3s;
-	border: 1px solid var(--orange);
-	padding: 1px;
 }
-
 .hero-map img:hover {
 	box-shadow: 0 0 10px 5px var(--orange);
 }
@@ -865,8 +860,8 @@ footer a {
 	}
 	.hero-covid {
 		position: absolute;
-		top: 80px;
-		right: -150px;
+		top: 122px;
+		right: -12px;
 		width: 380px;
 		margin: 0;
 	}
