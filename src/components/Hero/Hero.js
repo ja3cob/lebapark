@@ -31,7 +31,7 @@ const Hero = ({ HeroRef }) => {
       </div>
       <div className='hero-map'>
 				<h3>Plan parku</h3>
-				<a href='/mapa.jpg'>
+				<a href='/mapa.jpg' target='blank'>
 					<img className='hero-box' src={Map} alt='Mapa parku' />
 				</a>
 			</div>
