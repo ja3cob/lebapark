@@ -79,6 +79,11 @@ const NavbarMobile = ({ refs }) => {
           <li>
             <button className="mobile-menu-link open-modal">Kup bilet</button>
           </li>
+          <li>
+            <a className="mobile-menu-link" href="/menu.jpg" target="blank">
+              Menu
+            </a>
+          </li>
         </ul>
         <div className="menu-logo">
           <img src={Logo} alt="Logo parku dinozaurów Łeba" />

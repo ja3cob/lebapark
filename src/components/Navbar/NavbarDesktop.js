@@ -69,6 +69,11 @@ const NavbarDesktop = ({ refs }) => {
           <li>
             <button className="mobile-menu-link open-modal">Kup bilet</button>
           </li>
+          <li>
+            <a className="mobile-menu-link" href='/menu.jpg' target="blank">
+              Menu
+            </a>
+          </li>
         </ul>
       </nav>
     </>
