@@ -56,22 +56,13 @@ const News = ({ NewsRef }) => {
         <img src={News4} alt="Nocleg" />
         <h2>NOCLEG</h2>
         <p>
-          Chcesz zostać na dłużej? Naszym gościom oferujemy rodzinny pobyt w
-          kameralnym{' '}
-          <a href="https://hotelnadmorski.pl/">Hotelu Nadmorskim</a> lub{' '}
-          <a href="https://www.grandleba.pl/">Grand Łeba</a>!
+          Chcesz zostać na dłużej?
         </p>
         <p>
-          <a href="https://hotelnadmorski.pl/">Hotel Nadmorski</a> w
-          Łebie proponuje przyjemne rodzinne pokoje, domową kuchnię oraz usługi
-          dodatkowe (bilard, plac zabaw, bibliotekę). Obiekt przystosowany jest
-          dla najmłodszych.
+          <a href="https://lebaparkresort.pl/">ŁEBA PARK RESORT</a> to obiekt, który jest położony bezpośrednio przy naszym parku!
         </p>
         <p>
-          <a href="https://www.grandleba.pl/">Grand Łeba</a> oddany do użytku w
-          2018 roku, położony jest w centrum miasta, tuż przy kanale Chełst. Ten
-          obiekt to idealne miejsce dla osób chcących odpocząć w atmosferze
-          ciszy i spokoju.
+          <a href="https://grandleba.pl/">GRAND ŁEBA</a> położony jest w centrum miasta tuż przy kanale Chełst. Ten obiekt to idealne miejsce dla osób chcących odpocząć w atmosferze ciszy i spokoju.
         </p>
       </div>
     </div>
