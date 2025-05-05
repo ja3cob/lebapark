@@ -52,7 +52,7 @@ const PlanYourVisit = ({ VisitRef, AttractionsRef }) => {
 					<br />
 					Busy Łeba Parku kursują w terminach:
 					<br />
-					01.05 - 05.05
+					01.05 - 04.05
 					<br />
 					30.05 - 31.08
 				</p>
@@ -100,7 +100,7 @@ const PlanYourVisit = ({ VisitRef, AttractionsRef }) => {
 						<span>WSZYSTKIE** atrakcje w cenie biletu!</span>
 					</h4>
 					<p>
-						+ bezpłatnie przejazd z Łeby DINO BUSEM! (w terminach 01.05-05.05 i 30.05-31.08)
+						+ bezpłatnie przejazd z Łeby DINO BUSEM! (w terminach 01.05-04.05 i 30.05-31.08)
 						<br />
 						+ niestrzeżony parking (dla zwiedzających, otwarty w godzinach
 						pracy parku) GRATIS!
