@@ -74,10 +74,10 @@ const PlanYourVisit = ({ VisitRef, AttractionsRef }) => {
 					<p>park należy opuścić do 19:30</p>
 					<h4>od 25 sierpnia do 7 września: 9:00 – 16:00</h4>
 					<p>park należy opuścić do 17:30</p>
-					<h4>od 8 września do 28 września: 9:00 – 15:30</h4>
+					<h4>od 8 września do 21 września: 9:00 – 15:30</h4>
 					<p>park należy opuścić do 16:30</p>
 
-					<h4>od 29 września park jest nieczynny</h4>
+					<h4>od 22 września park jest nieczynny</h4>
 				</div>
 				<div className='visit-item'>
 					<div className='visit-header'>
