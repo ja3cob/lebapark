@@ -1,45 +1,48 @@
-import Logo from '../../assets/logo.png';
-import Covid from '../../assets/hero.png';
-import Lead from '../../assets/lead.png';
-import Map from '../../assets/mapa-thumb.jpg';
-import { Scene } from 'react-scrollmagic';
-import Video from '../../assets/hero.mp4';
-import Poster from '../../assets/hero-poster.jpg'
+import Logo from "../../assets/logo.png";
+import Covid from "../../assets/hero.png";
+import Lead from "../../assets/lead.png";
+import Map from "../../assets/mapa-thumb.jpg";
+import { Scene } from "react-scrollmagic";
+import Video from "../../assets/hero.mp4";
+import Poster from "../../assets/hero-poster.jpg";
 
 const Hero = ({ HeroRef }) => {
-	return (
-		<div className='hero-container' ref={HeroRef}>
-			<Scene duration={853} classToggle={['.nav-1', 'active']}>
-				<div className='hero-logo'>
-					<img src={Logo} alt='Logo parku dinozaurów Łeba' />
-				</div>
-			</Scene>
-			<div className='hero-covid'>
-				<img
-					src={Covid}
-					alt='Możliwość zakupienia biletu online'
-				/>
+  return (
+    <div className="hero-container" ref={HeroRef}>
+      <Scene duration={853} classToggle={[".nav-1", "active"]}>
+        <div className="hero-logo">
+          <img src={Logo} alt="Logo parku dinozaurów Łeba" />
+        </div>
+      </Scene>
+      <div className="hero-covid">
+        <img src={Covid} alt="Możliwość zakupienia biletu online" />
 
         <h2 className="covid-button">KUP BILET ONLINE</h2>
       </div>
-      <div className='hero-video'>
+      <div className="hero-video">
         <h3>Zobacz filmik</h3>
-        <video className='hero-box' poster={Poster} preload='auto' autoPlay muted loop>
-          <source src={Video} type='video/mp4'/>
+        <video
+          className="hero-box"
+          poster={Poster}
+          preload="auto"
+          autoPlay
+          muted
+          loop>
+          <source src={Video} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
-      <div className='hero-map'>
-				<h3>Plan parku</h3>
-				<a href='/mapa.jpg' target='blank'>
-					<img className='hero-box' src={Map} alt='Mapa parku' />
-				</a>
-			</div>
+      <div className="hero-map">
+        <h3>Plan parku</h3>
+        <a href="/mapa.jpg" target="blank">
+          <img className="hero-box" src={Map} alt="Mapa parku" />
+        </a>
+      </div>
       <div className="hero-lead">
         <p className="lead-info">
           Wizyta u nas to niezwykła, fantastyczna przygoda w przeszłość, aż do
-          epoki kredy. Tylko w Łebie w Parku Dinozaurów spotkasz
-          trójwymiarowe gady naturalnej wielkości.
+          epoki kredy. Tylko w Łebie w Parku Dinozaurów spotkasz trójwymiarowe
+          gady naturalnej wielkości.
         </p>
         <div className="lead-img">
           <img src={Lead} alt="Trasa pełna przygód!" />
