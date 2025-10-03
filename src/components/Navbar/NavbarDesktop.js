@@ -1,6 +1,5 @@
 const NavbarDesktop = ({ refs }) => {
-  const [HeroRef, AttractionsRef, NewsRef, OffersRef, VisitRef, ContactRef] =
-    refs;
+  const [HeroRef, NewsRef, OffersRef, VisitRef, ContactRef] = refs;
   const handleScroll = item => {
     window.scrollTo({
       top: item.current.offsetTop - 65,
@@ -16,13 +15,6 @@ const NavbarDesktop = ({ refs }) => {
               className="mobile-menu-link"
               onClick={() => handleScroll(HeroRef)}>
               Łeba Park
-            </button>
-          </li>
-          <li className="nav-2">
-            <button
-              className="mobile-menu-link"
-              onClick={() => handleScroll(AttractionsRef)}>
-              Atrakcje
             </button>
           </li>
           <li className="nav-3">

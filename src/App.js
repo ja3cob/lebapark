@@ -2,7 +2,6 @@ import { useState, useEffect, useRef } from "react";
 import { useCookies } from "react-cookie";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
-import Attractions from "./components/Attractions/Attractions";
 import News from "./components/News/News";
 import SpecialOffers from "./components/SpecialOffers/SpecialOffers";
 import PlanYourVisit from "./components/PlanYourVisit/PlanYourVisit";
@@ -55,19 +54,11 @@ const App = () => {
 
   // references - scroll to section after navbar clicked
   const HeroRef = useRef();
-  const AttractionsRef = useRef();
   const NewsRef = useRef();
   const OffersRef = useRef();
   const VisitRef = useRef();
   const ContactRef = useRef();
-  const refs = [
-    HeroRef,
-    AttractionsRef,
-    NewsRef,
-    OffersRef,
-    VisitRef,
-    ContactRef,
-  ];
+  const refs = [HeroRef, NewsRef, OffersRef, VisitRef, ContactRef];
   return (
     <Controller>
       <Navbar isMobile={isMobile} refs={refs} />
@@ -79,10 +70,9 @@ const App = () => {
       )}
       <div className="content">
         <Hero HeroRef={HeroRef} />
-        <Attractions isMobile={isMobile} AttractionsRef={AttractionsRef} />
         <News NewsRef={NewsRef} />
         <SpecialOffers OffersRef={OffersRef} />
-        <PlanYourVisit VisitRef={VisitRef} AttractionsRef={AttractionsRef} />
+        <PlanYourVisit VisitRef={VisitRef} />
         <Contact ContactRef={ContactRef} />
       </div>
       <footer>

@@ -25,29 +25,6 @@ const SpecialOffers = ({ OffersRef }) => {
           </p>
         </div>
       </Scene>
-      <div className="specialOffer-item">
-        <h3>WSZYSTKIE ATRAKCJE W CENIE BILETU</h3>
-        <ul>
-          <li>
-            Zadaszony plac zabaw 1200m<sup>2</sup>
-          </li>
-          <li>Profesjonalny park trampolin</li>
-          <li>Autodrom</li>
-          <li>Ogromne zjeżdżalnie wodne (zjazd w ubraniu)</li>
-          <li>Zamek strachu</li>
-          <li>Eurobungee</li>
-          <li>Pole do Minigolfa</li>
-          <li>Wstęp do galerii minerałów i skamielin</li>
-          <li>Pojazdy Flinstonów</li>
-          <li>Rowery wodne dla rodzin</li>
-          <li>Strzelanie z wiatrówki</li>
-          <li>Kopalnia złota</li>
-          <li>Pojazdy wodne dla dzieci</li>
-          <li>Przejazd pojazdem bajkowym</li>
-          <li>Wstęp na Diabelski Młyn (koło młyńskie) wysoki na 27 metrów!</li>
-          <li>Labirynt magicznych luster</li>
-        </ul>
-      </div>
     </div>
   );
 };

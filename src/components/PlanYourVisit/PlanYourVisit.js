@@ -1,12 +1,11 @@
 import VisitHeader1 from "../../assets/visit-header1.png";
 import VisitHeader2 from "../../assets/visit-header2.png";
 import VisitHeader3 from "../../assets/visit-header3.png";
-import VisitLink1 from "../../assets/visit-link1.png";
 import VisitLink2 from "../../assets/visit-link2.png";
 import Separator1 from "../../assets/attractions-separator1.png";
 import Separator2 from "../../assets/attractions-separator2.png";
 import { Scene } from "react-scrollmagic";
-const PlanYourVisit = ({ VisitRef, AttractionsRef }) => {
+const PlanYourVisit = ({ VisitRef }) => {
   return (
     <div className="visit-container" ref={VisitRef}>
       <div className="visit-separator">
@@ -108,16 +107,6 @@ const PlanYourVisit = ({ VisitRef, AttractionsRef }) => {
       </div>
 
       <div className="visit-links">
-        <button
-          className="visit-link"
-          onClick={() => {
-            window.scrollTo({
-              top: AttractionsRef.current.offsetTop - 65,
-              behavior: "smooth",
-            });
-          }}>
-          <img src={VisitLink1} alt="Sprawdź listę atrakcji!" />
-        </button>
         <button className="visit-link open-modal">
           <img src={VisitLink2} alt="Kup bilety online!" />
         </button>
