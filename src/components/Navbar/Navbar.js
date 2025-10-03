@@ -1,5 +1,5 @@
-import NavbarDesktop from './NavbarDesktop';
-import NavbarMobile from './NavbarMobile';
+import NavbarDesktop from "./NavbarDesktop";
+import NavbarMobile from "./NavbarMobile";
 
 const Navbar = ({ isMobile, refs }) => {
   return (

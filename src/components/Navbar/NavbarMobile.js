@@ -1,18 +1,12 @@
-import MobileMenuScript from './MobileMenuScript';
-import Logo from '../../assets/logo.png';
+import MobileMenuScript from "./MobileMenuScript";
+import Logo from "../../assets/logo.png";
 const NavbarMobile = ({ refs }) => {
-  const [
-    HeroRef,
-    AttractionsRef,
-    NewsRef,
-    OffersRef,
-    VisitRef,
-    ContactRef,
-  ] = refs;
+  const [HeroRef, AttractionsRef, NewsRef, OffersRef, VisitRef, ContactRef] =
+    refs;
   const handleScroll = item => {
     window.scrollTo({
       top: item.current.offsetTop - 65,
-      behavior: 'smooth',
+      behavior: "smooth",
     });
   };
   return (
@@ -30,40 +24,35 @@ const NavbarMobile = ({ refs }) => {
           <li>
             <button
               className="mobile-menu-link"
-              onClick={() => handleScroll(HeroRef)}
-            >
+              onClick={() => handleScroll(HeroRef)}>
               Łeba Park
             </button>
           </li>
           <li>
             <button
               className="mobile-menu-link"
-              onClick={() => handleScroll(AttractionsRef)}
-            >
+              onClick={() => handleScroll(AttractionsRef)}>
               Atrakcje
             </button>
           </li>
           <li>
             <button
               className="mobile-menu-link"
-              onClick={() => handleScroll(NewsRef)}
-            >
+              onClick={() => handleScroll(NewsRef)}>
               Aktualności
             </button>
           </li>
           <li>
             <button
               className="mobile-menu-link"
-              onClick={() => handleScroll(OffersRef)}
-            >
+              onClick={() => handleScroll(OffersRef)}>
               Oferty specjalne
             </button>
           </li>
           <li>
             <button
               className="mobile-menu-link"
-              onClick={() => handleScroll(VisitRef)}
-            >
+              onClick={() => handleScroll(VisitRef)}>
               Zaplanuj wizytę
             </button>
           </li>
@@ -71,8 +60,7 @@ const NavbarMobile = ({ refs }) => {
           <li>
             <button
               className="mobile-menu-link"
-              onClick={() => handleScroll(ContactRef)}
-            >
+              onClick={() => handleScroll(ContactRef)}>
               Kontakt
             </button>
           </li>
