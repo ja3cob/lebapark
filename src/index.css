@@ -724,11 +724,6 @@ footer a {
 	margin-bottom: 10px;
 }
 
-.under-construction h1 {
-	text-align: center;
-	color: var(--header);
-}
-
 @media (max-width: 350px) {
 	.news-item p {
 		left: 20px;
