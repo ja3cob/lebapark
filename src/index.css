@@ -99,6 +99,11 @@ sup {
   display: none;
   z-index: 100;
 }
+
+.separator {
+  margin: 40px 0;
+}
+
 /* 
   2. Mobile styles
 */
@@ -443,9 +448,6 @@ sup {
 
 .visit-container {
   margin: 50px 0 0 0;
-}
-.visit-separator {
-  display: none;
 }
 .visit-header,
 .visit-header img,
@@ -1037,10 +1039,6 @@ footer a {
   }
 
   /* plan your visit */
-  .visit-separator {
-    display: block;
-    margin: 40px 0;
-  }
   .visit-section {
     display: flex;
     justify-content: center;

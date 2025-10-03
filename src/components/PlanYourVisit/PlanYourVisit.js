@@ -2,15 +2,10 @@ import VisitHeader1 from "../../assets/visit-header1.png";
 import VisitHeader2 from "../../assets/visit-header2.png";
 import VisitHeader3 from "../../assets/visit-header3.png";
 import VisitLink2 from "../../assets/visit-link2.png";
-import Separator1 from "../../assets/attractions-separator1.png";
-import Separator2 from "../../assets/attractions-separator2.png";
 import { Scene } from "react-scrollmagic";
 const PlanYourVisit = ({ VisitRef }) => {
   return (
     <div className="visit-container" ref={VisitRef}>
-      <div className="visit-separator">
-        <img src={Separator1} alt="Początek sekcji Zaplanuj wizytę" />
-      </div>
       <div className="visit-section">
         <Scene duration={1726} classToggle={[".nav-5", "active"]}>
           <div className="visit-header">
@@ -101,9 +96,6 @@ const PlanYourVisit = ({ VisitRef }) => {
         {/* <a href={ParkMap} download='Mapa Parku Dinozaurów Łeba'> */}
         {/* Pobierz <span>mapę parku</span> */}
         {/* </a> */}
-      </div>
-      <div className="visit-separator">
-        <img src={Separator2} alt="Koniec sekcji Zaplanuj wizytę" />
       </div>
     </div>
   );
