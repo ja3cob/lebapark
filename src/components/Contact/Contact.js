@@ -1,18 +1,18 @@
-import ContactHeader from '../../assets/contact-header.png';
-import Pfr from '../../assets/pfr.png';
-import { Scene } from 'react-scrollmagic';
+import ContactHeader from "../../assets/contact-header.png";
+import Pfr from "../../assets/pfr.png";
+import { Scene } from "react-scrollmagic";
 const Contact = ({ ContactRef }) => {
   return (
     <div className="contact-container" ref={ContactRef}>
       <div className="contact-text">
-        <Scene duration={875} classToggle={['.nav-6', 'active']}>
+        <Scene duration={875} classToggle={[".nav-6", "active"]}>
           <div className="contact-header">
             <img src={ContactHeader} alt="Kontakt" />
           </div>
         </Scene>
         <div className="contact-info">
           <p>
-            <strong>W razie pytań prosimy o kontakt telefoniczny:</strong>{' '}
+            <strong>W razie pytań prosimy o kontakt telefoniczny:</strong>{" "}
             <a href="tel: 600 145 300">
               <span>600 145 300</span>
             </a>
@@ -24,7 +24,7 @@ const Contact = ({ ContactRef }) => {
             ul. Kolonijna 24A, Nowęcin k. Łeby
           </p>
           <p>
-            <strong>Rezerwacja pobytu</strong> w hotelu{' '}
+            <strong>Rezerwacja pobytu</strong> w hotelu{" "}
             <strong>Grand Łeba</strong> przez telefon:
             <br />
             <a href="tel: 723 724 722">
@@ -52,10 +52,9 @@ const Contact = ({ ContactRef }) => {
         <iframe
           title="Mapa Parku"
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5477.59462849501!2d17.569985150005824!3d54.74401406392874!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x75fec43ac8da9ff!2s%C5%81eba%20Park!5e0!3m2!1spl!2spl!4v1591784480915!5m2!1spl!2spl"
-          frameBorder={'0'}
-          width={'100%'}
-          height={'100%'}
-        ></iframe>
+          frameBorder={"0"}
+          width={"100%"}
+          height={"100%"}></iframe>
       </div>
       <p className="contact-reason">
         ** Dyrekcja Parku dokłada wszelkich starań, aby utrzymać w ciągłej pracy

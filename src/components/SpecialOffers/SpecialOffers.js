@@ -11,11 +11,10 @@ const SpecialOffers = ({ OffersRef }) => {
             <a href="https://www.grandleba.pl/" target="blank">
               Grand Łeba
             </a>
-            ? Wejście do naszego parku otrzymujesz GRATIS*! Grand Łeba to obiekt
-            oddany do użytku w 2018 roku. Położony w centrum miasta tuż przy
-            kanale Chełst jest idealnym miejscem dla osób chcących odpocząć w
-            atmosferze ciszy i spokoju. Aby dowiedzieć się więcej zadzwoń –
-            +48723724722 lub wejdź na{" "}
+            ? Wejście do naszego parku otrzymujesz GRATIS*! Położony w centrum
+            miasta tuż przy kanale Chełst jest idealnym miejscem dla osób
+            chcących odpocząć w atmosferze ciszy i spokoju. Aby dowiedzieć się
+            więcej zadzwoń – +48723724722 lub wejdź na{" "}
             <a href="https://www.grandleba.pl/" target="blank">
               www.grandleba.pl
             </a>
