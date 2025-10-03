@@ -18,41 +18,11 @@ const PlanYourVisit = ({ VisitRef }) => {
           </div>
         </Scene>
         <p className="visit-text">
-          Park Dinozaurów w Łebie to świat zabawy dla całej rodziny, wspaniałe
-          trasy pełne przygód i atrakcji, mnóstwo świetnej rozrywki.
-          <br />
-          <br />
-          Naturalne walory Parku i bliskość morza czynią dzień, przeznaczony na
-          poznanie Łeba Parku, niezapomnianym. Wyjątkowy nacisk położyliśmy na
-          przyjemność, zabawę i edukację najmłodszych.
-          <br />
-          <br />
-          W czasie zwiedzania każdy z rodziców będzie miał niepowtarzalną
-          możliwość obserwowania swojej pociechy w sytuacjach nowych, nie
-          odkrytych, pełnych żywiołowych reakcji.
-          <br />
-          <br />
-          Zaplanuj czas na nowe atrakcje: autodrom, profesjonalny park
-          trampolin, mega duży zadaszony plac zabaw o powierzchni 1200m
-          <sup>2</sup>, gigantyczne zjeżdżalnie wodne, pole do mini golfa.
-          <br />
-          <br />
-          Czas zwiedzania Parku to ok 4 – 6 godzin… nie oznacza to, że w tym
-          czasie zwiedzicie wszystko … czasu i tak będzie mało ...
-          <br />
-          <br />
           Nasze <span>elektryczne pojazdy</span> dowiozą Państwa do naszego
           parku za darmo. Parkujemy w centrum Łeby – ulica Wojska Polskiego
           (obok pizzerii Lider). Pierwszy przejazd wykonujemy o godzinie{" "}
           <span>9:00</span>, busy odjeżdżają <span>co 10 minut</span> (wg.
           zajętości pojazdów).
-          <br />
-          <br />
-          Busy Łeba Parku kursują w terminach:
-          <br />
-          01.05 - 04.05
-          <br />
-          30.05 - 31.08
         </p>
       </div>
       <div className="visit-items">
@@ -127,7 +97,7 @@ const PlanYourVisit = ({ VisitRef }) => {
           <li>
             Łeba Park posiada wszelkie udogodnienia dla osób niepełnosprawnych,
           </li>
-          <li>przed Łeba Parkiem czeka na Państwa parking,</li>
+          <li>przed Łeba Parkiem czeka na Państwa bezpłatny parking,</li>
           <li>na terenie Łeba Parku obowiązuje zakaz wstępu ze zwierzętami.</li>
         </ul>
         {/* <a href={ParkMap} download='Mapa Parku Dinozaurów Łeba'> */}

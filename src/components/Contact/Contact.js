@@ -37,15 +37,6 @@ const Contact = ({ ContactRef }) => {
             <br />
             ul. Nad Ujściem 6, Łeba
           </p>
-          <p>
-            <strong>Organizacja imprez firmowych:</strong>
-            <br />
-            Agencja Artystyczna Przygoda Lębork
-            <br />
-            <span>biuro@przygodalebork.pl</span>
-            <br />
-            tel. 59 86 22 755
-          </p>
         </div>
       </div>
       <div className="contact-map">
