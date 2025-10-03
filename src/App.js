@@ -3,7 +3,6 @@ import { useCookies } from "react-cookie";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import News from "./components/News/News";
-import SpecialOffers from "./components/SpecialOffers/SpecialOffers";
 import PlanYourVisit from "./components/PlanYourVisit/PlanYourVisit";
 import Contact from "./components/Contact/Contact";
 import { Controller } from "react-scrollmagic";
@@ -55,10 +54,9 @@ const App = () => {
   // references - scroll to section after navbar clicked
   const HeroRef = useRef();
   const NewsRef = useRef();
-  const OffersRef = useRef();
   const VisitRef = useRef();
   const ContactRef = useRef();
-  const refs = [HeroRef, NewsRef, OffersRef, VisitRef, ContactRef];
+  const refs = [HeroRef, NewsRef, VisitRef, ContactRef];
   return (
     <Controller>
       <Navbar isMobile={isMobile} refs={refs} />
@@ -71,7 +69,6 @@ const App = () => {
       <div className="content">
         <Hero HeroRef={HeroRef} />
         <News NewsRef={NewsRef} />
-        <SpecialOffers OffersRef={OffersRef} />
         <PlanYourVisit VisitRef={VisitRef} />
         <Contact ContactRef={ContactRef} />
       </div>

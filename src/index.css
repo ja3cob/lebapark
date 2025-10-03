@@ -419,55 +419,24 @@ sup {
 .news-item:nth-of-type(4) p:nth-of-type(3) {
   top: 67%;
 }
-/* 2.7 - special offers */
 
-.specialOffers-container {
-  margin: 25px 0 0 0;
-}
-.specialOffers-img,
-.specialOffers-img img {
-  width: 100%;
-}
-.specialOffers-img {
-  max-width: 180px;
-  margin: 0 auto;
-}
-.specialOffer-item {
-  margin: 35px auto;
+.news-additional {
   padding: 0 15px;
 }
-.specialOffer-item h3 {
+
+.news-additional h3 {
   text-align: center;
   color: var(--header);
 }
-.specialOffer-item p {
+.news-additional p {
   color: var(--main);
   font-size: var(--font);
   line-height: 1.3;
   text-align: center;
 }
-.specialOffer-item a {
+.news-additional a {
   color: var(--green);
   text-decoration: none;
-}
-.specialOffer-item ul {
-  padding: 0 15px;
-  list-style: none;
-}
-/* color of list's bullets */
-/*.specialOffer-item li:before {
-	content: '\2022';
-	color: var(--main);
-	display: inline-block;
-	width: 1em;
-	margin-left: -1em;
-	font-weight: bold;
-}*/
-.specialOffer-item li {
-  color: var(--main);
-  font-size: var(--font);
-  line-height: 1.6;
-  text-align: center;
 }
 
 /* 2.8 - plan your visit */

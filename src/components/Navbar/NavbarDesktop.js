@@ -1,5 +1,5 @@
 const NavbarDesktop = ({ refs }) => {
-  const [HeroRef, NewsRef, OffersRef, VisitRef, ContactRef] = refs;
+  const [HeroRef, NewsRef, VisitRef, ContactRef] = refs;
   const handleScroll = item => {
     window.scrollTo({
       top: item.current.offsetTop - 65,
@@ -22,13 +22,6 @@ const NavbarDesktop = ({ refs }) => {
               className="mobile-menu-link"
               onClick={() => handleScroll(NewsRef)}>
               Aktualności
-            </button>
-          </li>
-          <li className="nav-4">
-            <button
-              className="mobile-menu-link"
-              onClick={() => handleScroll(OffersRef)}>
-              Oferty specjalne
             </button>
           </li>
           <li className="nav-5">

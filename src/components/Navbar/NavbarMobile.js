@@ -1,7 +1,7 @@
 import MobileMenuScript from "./MobileMenuScript";
 import Logo from "../../assets/logo.png";
 const NavbarMobile = ({ refs }) => {
-  const [HeroRef, NewsRef, OffersRef, VisitRef, ContactRef] = refs;
+  const [HeroRef, NewsRef, VisitRef, ContactRef] = refs;
   const handleScroll = item => {
     window.scrollTo({
       top: item.current.offsetTop - 65,
@@ -32,13 +32,6 @@ const NavbarMobile = ({ refs }) => {
               className="mobile-menu-link"
               onClick={() => handleScroll(NewsRef)}>
               Aktualności
-            </button>
-          </li>
-          <li>
-            <button
-              className="mobile-menu-link"
-              onClick={() => handleScroll(OffersRef)}>
-              Oferty specjalne
             </button>
           </li>
           <li>

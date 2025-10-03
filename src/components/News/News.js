@@ -64,6 +64,26 @@ const News = ({ NewsRef }) => {
           chcących odpocząć w atmosferze ciszy i spokoju.
         </p>
       </div>
+
+      <div className="news-additional">
+        <h3>W CENIE NOCLEGU W GRAND ŁEBA wstęp do Parku GRATIS!*</h3>
+        <p>
+          Spędzasz wakacje w Łebie i jesteś gościem{" "}
+          <a href="https://www.grandleba.pl/" target="blank">
+            Grand Łeba
+          </a>
+          ? Wejście do naszego parku otrzymujesz GRATIS*! Położony w centrum
+          miasta tuż przy kanale Chełst jest idealnym miejscem dla osób chcących
+          odpocząć w atmosferze ciszy i spokoju. Aby dowiedzieć się więcej
+          zadzwoń – +48723724722 lub wejdź na{" "}
+          <a href="https://www.grandleba.pl/" target="blank">
+            www.grandleba.pl
+          </a>
+          <br />
+          <br />
+          *minimalny czas pobytu to 3 doby z wyżywieniem
+        </p>
+      </div>
     </div>
   );
 };
