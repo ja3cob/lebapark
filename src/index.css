@@ -542,6 +542,17 @@ sup {
   max-width: 250px;
   margin: 0 auto;
 }
+
+.contact-socialmedia {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin: 10px 0;
+}
+.contact-socialmedia img {
+  width: 50px;
+}
+
 .contact-info,
 .contact-reason {
   padding: 0 15px;

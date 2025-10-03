@@ -1,6 +1,10 @@
 import ContactHeader from "../../assets/contact-header.png";
 import Pfr from "../../assets/pfr.png";
 import { Scene } from "react-scrollmagic";
+import Facebook from "../../assets/facebook-logo.png";
+import Instagram from "../../assets/instagram-logo.png";
+import TikTok from "../../assets/tiktok-logo.png";
+
 const Contact = ({ ContactRef }) => {
   return (
     <div className="contact-container" ref={ContactRef}>
@@ -11,6 +15,17 @@ const Contact = ({ ContactRef }) => {
           </div>
         </Scene>
         <div className="contact-info">
+          <div className="contact-socialmedia">
+            <a href="https://facebook.com/LebaPark">
+              <img src={Facebook} alt="Facebook" />
+            </a>
+            <a href="https://instagram.com/leba_park">
+              <img src={Instagram} alt="Instagram" />
+            </a>
+            <a href="https://tiktok.com/@leba_park">
+              <img src={TikTok} alt="TikTok" />
+            </a>
+          </div>
           <p>
             <strong>W razie pytań prosimy o kontakt telefoniczny:</strong>{" "}
             <a href="tel: 600 145 300">
