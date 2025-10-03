@@ -1,6 +1,5 @@
 import Logo from "../../assets/logo.png";
 import Covid from "../../assets/hero.png";
-import Lead from "../../assets/lead.png";
 import Map from "../../assets/mapa-thumb.jpg";
 import { Scene } from "react-scrollmagic";
 import Video from "../../assets/hero.mp4";
@@ -32,27 +31,27 @@ const Hero = ({ HeroRef }) => {
           Your browser does not support the video tag.
         </video>
       </div>
+      <div className="hero-lead">
+        <h3>RODZINNY PARK ROZRYWKI ŁEBA PARK</h3>
+        <h3>JESTEŚMY Z WAMI OD 2010 ROKU !!!</h3>
+        <p className="lead-info">
+          To Świat radości, emocji i wspólnych wspomnień do, którego będziecie
+          chcieli wracać. To miejsce, gdzie rodziny spędzają czas razem, dzieci
+          rozwijają swoją wyobraźnię a dorośli odnajdują w sobie dziecięcą
+          radość. Różnorodność dostępnych atrakcji sprawia, że niezależnie od
+          wieku i zainteresowań-w naszym Parku każdy znajdzie coś dla siebie. To
+          nie tylko wizyta w parku-to emocje, rodzinne wspomnienia, które
+          zostają w pamięci na lata. Przyjdźcie razem i przekonajcie się, że
+          najpiękniejsze chwile to te, które spędzamy we wspólnym gronie. Pogoda
+          nam nie straszna, czy świeci słońce, czy pada deszcz w Łeba Park super
+          zabawa jest. Część naszych atrakcji znajduje się pod dachem.
+        </p>
+      </div>
       <div className="hero-map">
         <h3>Plan parku</h3>
         <a href="/mapa.jpg" target="blank">
           <img className="hero-box" src={Map} alt="Mapa parku" />
         </a>
-      </div>
-      <div className="hero-lead">
-        <p className="lead-info">
-          Wizyta u nas to niezwykła, fantastyczna przygoda w przeszłość, aż do
-          epoki kredy. Tylko w Łebie w Parku Dinozaurów spotkasz trójwymiarowe
-          gady naturalnej wielkości.
-        </p>
-        <div className="lead-img">
-          <img src={Lead} alt="Trasa pełna przygód!" />
-        </div>
-        <p className="lead-info">
-          Pełna przygód i atrakcji trasa, niezapomniane widoki i przeżycia,
-          które na zawsze pozostaną w pamięci małego człowieka. Fantastyczna
-          przygoda edukacyjna dla małych i doskonała zabawa dla dużych
-          miłośników największych gadów w historii.
-        </p>
       </div>
     </div>
   );
