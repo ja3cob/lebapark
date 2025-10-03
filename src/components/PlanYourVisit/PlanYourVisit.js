@@ -49,30 +49,28 @@ const PlanYourVisit = ({ VisitRef }) => {
         </div>
         <div className="visit-item">
           <div className="visit-header">
-            <img src={VisitHeader3} alt="Kalendarz" />
+            <img src={VisitHeader3} alt="Cennik" />
           </div>
-          <h4>bilet normalny: 95 zł</h4>
-          <h4>bilet ulgowy: 75 zł</h4>
-          <p>
-            dla dzieci i młodzieży do 15 roku życia tylko za okazaniem
-            legitymacji szkolnej
-          </p>
-          <h4>bilet grupowy: 45 zł</h4>
-          <p>
-            dla grup szkolnych powyżej 20 dzieci, 1 osoba (opiekun/organizator)
-            na 15 dzieci z danej grupy wstęp wolny,
-          </p>
-          <h4>dzieci do lat 4: wstęp wolny*</h4>
-          <p>* nie dotyczy grup zorganizowanych</p>
           <h4>
-            <span>WSZYSTKIE** atrakcje w cenie biletu!</span>
+            DZIECI DO WZROSTU 100 cm WCHODZĄ <span>GRATIS</span>
           </h4>
+          <p>Nie dotyczy grup szkolnych i przedszkolnych</p>
+
+          <h4>Bilet normalny: 119 zł</h4>
+          <h4>Bilet ulgowy: 99 zł</h4>
           <p>
-            + bezpłatnie przejazd z Łeby DINO BUSEM! (w terminach 01.05-04.05 i
-            30.05-31.08)
-            <br />+ niestrzeżony parking (dla zwiedzających, otwarty w godzinach
-            pracy parku) GRATIS!
+            Emeryci, renciści, osoby niepełnosprawne, dzieci i młodzież do 15
+            roku życia za okazaniem ważnej legitymacji uprawniającej do zniżki
           </p>
+
+          <h4>Bilet grupowy szkolny: 69 zł</h4>
+          <p>
+            Tylko dla dzieci i młodzieży do 15 roku życia w zorganizowanych
+            grupach szkolnych, zielonych szkół, koloniach powyżej 20 osób
+          </p>
+
+          <h4>Bilet grupowy przedszkolny: 59 zł</h4>
+          <p>Tylko dla dzieci z przedszkoli w grupach powyżej 15 osób</p>
         </div>
       </div>
 
