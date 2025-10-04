@@ -1,0 +1,10 @@
+.reviews-container {
+  display: flex;
+}
+
+@media (max-width: 999px) {
+  .reviews-container {
+    flex-direction: column;
+    margin: 0 30px;
+  }
+}

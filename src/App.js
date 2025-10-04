@@ -8,6 +8,7 @@ import Contact from "./components/Contact";
 import { Controller } from "react-scrollmagic";
 import Separator1 from "./assets/img/attractions-separator1.png";
 import Separator2 from "./assets/img/attractions-separator2.png";
+import Reviews from "./components/Reviews/Reviews";
 // function which limits resize event occurrence
 function debounce(fn, ms) {
   let timer;
@@ -57,8 +58,9 @@ const App = () => {
   const HeroRef = useRef();
   const NewsRef = useRef();
   const VisitRef = useRef();
+  const ReviewsRef = useRef();
   const ContactRef = useRef();
-  const refs = [HeroRef, NewsRef, VisitRef, ContactRef];
+  const refs = [HeroRef, NewsRef, VisitRef, ReviewsRef, ContactRef];
   return (
     <Controller>
       <Navbar isMobile={isMobile} refs={refs} />
@@ -75,6 +77,8 @@ const App = () => {
         <img className="separator" src={Separator2} alt="Separator" />
         <News NewsRef={NewsRef} />
         <img className="separator" src={Separator1} alt="Separator" />
+        <Reviews ReviewsRef={ReviewsRef} />
+        <img className="separator" src={Separator2} alt="Separator" />
         <Contact ContactRef={ContactRef} />
       </div>
       <footer>
