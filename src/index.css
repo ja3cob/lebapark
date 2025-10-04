@@ -273,10 +273,12 @@ h3 {
 .hero-lead {
   width: 100%;
   padding: 0 15px;
+  margin: 30px 0;
 }
 .hero-lead h3 {
   text-align: center;
   color: var(--header);
+  margin: 0px;
 }
 .lead-info {
   line-height: 1.4;
