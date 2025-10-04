@@ -1,5 +1,5 @@
 import MobileMenuScript from "./MobileMenuScript";
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/img/logo.png";
 const NavbarMobile = ({ refs }) => {
   const [HeroRef, NewsRef, VisitRef, ContactRef] = refs;
   const handleScroll = item => {

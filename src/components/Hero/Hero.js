@@ -1,9 +1,9 @@
-import Logo from "../../assets/logo.png";
-import Covid from "../../assets/hero.png";
-import Map from "../../assets/mapa-thumb.jpg";
+import Logo from "../../assets/img/logo.png";
+import Covid from "../../assets/img/hero.png";
+import Map from "../../assets/img/mapa-thumb.jpg";
 import { Scene } from "react-scrollmagic";
-import Video from "../../assets/hero.mp4";
-import Poster from "../../assets/hero-poster.jpg";
+import Video from "../../assets/img/hero.mp4";
+import Poster from "../../assets/img/hero-poster.jpg";
 
 const Hero = ({ HeroRef }) => {
   return (

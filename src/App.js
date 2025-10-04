@@ -6,8 +6,8 @@ import News from "./components/News/News";
 import PlanYourVisit from "./components/PlanYourVisit/PlanYourVisit";
 import Contact from "./components/Contact/Contact";
 import { Controller } from "react-scrollmagic";
-import Separator1 from "./assets/attractions-separator1.png";
-import Separator2 from "./assets/attractions-separator2.png";
+import Separator1 from "./assets/img/attractions-separator1.png";
+import Separator2 from "./assets/img/attractions-separator2.png";
 // function which limits resize event occurrence
 function debounce(fn, ms) {
   let timer;
