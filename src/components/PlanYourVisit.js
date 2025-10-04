@@ -1,7 +1,7 @@
-import VisitHeader1 from "../../assets/img/visit-header1.png";
-import VisitHeader2 from "../../assets/img/visit-header2.png";
-import VisitHeader3 from "../../assets/img/visit-header3.png";
-import VisitLink2 from "../../assets/img/visit-link2.png";
+import VisitHeader1 from "../assets/img/visit-header1.png";
+import VisitHeader2 from "../assets/img/visit-header2.png";
+import VisitHeader3 from "../assets/img/visit-header3.png";
+import VisitLink2 from "../assets/img/visit-link2.png";
 import { Scene } from "react-scrollmagic";
 const PlanYourVisit = ({ VisitRef }) => {
   return (

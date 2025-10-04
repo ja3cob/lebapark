@@ -1,10 +1,10 @@
 import { useState, useEffect, useRef } from "react";
 import { useCookies } from "react-cookie";
 import Navbar from "./components/Navbar/Navbar";
-import Hero from "./components/Hero/Hero";
-import News from "./components/News/News";
-import PlanYourVisit from "./components/PlanYourVisit/PlanYourVisit";
-import Contact from "./components/Contact/Contact";
+import Hero from "./components/Hero";
+import News from "./components/News";
+import PlanYourVisit from "./components/PlanYourVisit";
+import Contact from "./components/Contact";
 import { Controller } from "react-scrollmagic";
 import Separator1 from "./assets/img/attractions-separator1.png";
 import Separator2 from "./assets/img/attractions-separator2.png";
