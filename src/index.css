@@ -225,8 +225,7 @@ h3 {
 .hero-container {
   margin: 80px 0 0 0;
 }
-.hero-logo,
-.hero-covid img {
+.hero-logo {
   width: 100%;
 }
 .hero-logo {
@@ -239,40 +238,6 @@ h3 {
   max-width: 100%;
   max-height: calc(100vh - 100px);
   margin: 0 auto;
-}
-.hero-covid {
-  max-width: 360px;
-  margin: 30px auto 0 auto;
-  padding: 0 10px;
-  position: relative;
-}
-.covid-info {
-  position: absolute;
-  font-size: 10px;
-  top: 50%;
-  left: 50%;
-  margin: 0;
-  line-height: 1.4;
-  min-width: 100%;
-  transform: translate(-16%, -58%);
-  color: var(--main);
-}
-.covid-info span {
-  color: var(--orange);
-}
-.covid-button {
-  position: absolute;
-  bottom: 15%;
-  font-size: 15px;
-  left: 50%;
-  margin: 0;
-  transform: translate(-50%, 0);
-  color: var(--white);
-  transition: 0.1s;
-  cursor: pointer;
-}
-.covid-button:hover {
-  color: var(--main);
 }
 
 .hero-box {
@@ -318,6 +283,37 @@ h3 {
   font-size: var(--font);
   text-align: center;
   color: var(--main);
+}
+
+.btn-buy-tickets {
+  background-color: #cf2132;
+  color: var(--white);
+  border: 0;
+  font-family: "Pangolin";
+  position: fixed;
+  bottom: 15px;
+  right: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  z-index: 9;
+  width: 80px;
+  height: 80px;
+  transition: 0.2s ease;
+}
+.btn-buy-tickets:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5);
+}
+
+.btn-buy-tickets span {
+  display: none;
+  font-size: 1.7rem;
+}
+.btn-buy-tickets i {
+  transform: rotate(10deg);
+  font-size: 2.5rem;
 }
 
 /* 2.5 - animations */
@@ -746,14 +742,19 @@ footer a {
   .hero-logo {
     max-width: 700px;
   }
-  .hero-covid {
-    position: absolute;
-    top: 122px;
-    right: -12px;
-    width: 380px;
-    margin: 0;
-  }
 
+  .btn-buy-tickets {
+    border-radius: 10px;
+    top: 80px;
+    width: initial;
+    height: 60px;
+  }
+  .btn-buy-tickets span {
+    display: initial;
+  }
+  .btn-buy-tickets i {
+    display: none;
+  }
   /* attractions */
 
   .attractions-start {

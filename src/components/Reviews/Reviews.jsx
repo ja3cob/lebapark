@@ -12,8 +12,8 @@ export default function Reviews({ ReviewsRef }) {
         </h2>
       </Scene>
       <div className="reviews-container">
-        {reviews.map(review => (
-          <Opinion {...review} />
+        {reviews.map((review, index) => (
+          <Opinion {...review} key={index} />
         ))}
       </div>
     </div>

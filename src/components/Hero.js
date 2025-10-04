@@ -1,5 +1,4 @@
 import Logo from "../assets/img/logo.png";
-import Covid from "../assets/img/hero.png";
 import Map from "../assets/img/mapa-thumb.jpg";
 import { Scene } from "react-scrollmagic";
 import Video from "../assets/img/hero.mp4";
@@ -13,11 +12,10 @@ const Hero = ({ HeroRef }) => {
           <img src={Logo} alt="Logo parku dinozaurów Łeba" />
         </div>
       </Scene>
-      <div className="hero-covid">
-        <img src={Covid} alt="Możliwość zakupienia biletu online" />
-
-        <h2 className="covid-button">KUP BILET ONLINE</h2>
-      </div>
+      <button className="btn-buy-tickets">
+        <span>KUP BILET ONLINE</span>
+        <i className="fa-solid fa-ticket" />
+      </button>
       <div className="hero-video">
         <h3>Zobacz filmik</h3>
         <video
