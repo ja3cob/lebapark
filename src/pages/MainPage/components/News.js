@@ -6,7 +6,7 @@ import { Scene } from "react-scrollmagic";
 const News = ({ NewsRef }) => {
   return (
     <div className="news-container" ref={NewsRef}>
-      <Scene duration={630} classToggle={[".nav-news", "active"]}>
+      <Scene duration={830} classToggle={[".nav-news", "active"]}>
         <div className="news-item">
           <img src={News1} alt="Aktualności" />
           <h2>AKTUALNOŚCI</h2>

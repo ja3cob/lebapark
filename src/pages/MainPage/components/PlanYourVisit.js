@@ -7,7 +7,7 @@ const PlanYourVisit = ({ VisitRef }) => {
   return (
     <div className="visit-container" ref={VisitRef}>
       <div className="visit-section">
-        <Scene duration={1726} classToggle={[".nav-visit", "active"]}>
+        <Scene duration={1290} classToggle={[".nav-visit", "active"]}>
           <div className="visit-header">
             <img src={VisitHeader1} alt="Zaplanuj swoją wizytę." />
           </div>

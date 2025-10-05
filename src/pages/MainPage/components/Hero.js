@@ -7,7 +7,7 @@ import Poster from "../../../assets/img/hero-poster.jpg";
 const Hero = ({ HeroRef }) => {
   return (
     <div className="hero-container" ref={HeroRef}>
-      <Scene duration={853} classToggle={[".nav-hero", "active"]}>
+      <Scene duration={2409} classToggle={[".nav-hero", "active"]}>
         <div className="hero-logo">
           <img src={Logo} alt="Logo parku dinozaurów Łeba" />
         </div>
