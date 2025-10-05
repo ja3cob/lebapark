@@ -52,6 +52,11 @@ const NavbarDesktop = ({ handleItemClick }) => {
             Kontakt
           </button>
         </li>
+        <li className="nav-item nav-booking">
+          <Link className="mobile-menu-link" to="/rezerwacje">
+            Rezerwacje
+          </Link>
+        </li>
         <li className="nav-item nav-gallery">
           <Link className="mobile-menu-link" to="/galeria">
             Galeria

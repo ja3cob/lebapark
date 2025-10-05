@@ -9,6 +9,7 @@
   --orange: #cc8662;
   --header: #736357;
   --green: #70911c;
+  --red: #cf2132;
   --font: 14px;
 }
 * {
@@ -289,7 +290,7 @@ h3 {
 }
 
 .btn-buy-tickets {
-  background-color: #cf2132;
+  background-color: var(--red);
   color: var(--white);
   border: 0;
   font-family: "Pangolin";
