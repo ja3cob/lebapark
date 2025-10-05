@@ -3,6 +3,7 @@ import { useCookies } from "react-cookie";
 import Navbar from "./components/Navbar/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MainPage from "./pages/MainPage/MainPage";
+import Gallery from "./pages/Gallery/Gallery";
 // function which limits resize event occurrence
 function debounce(fn, ms) {
   let timer;
@@ -69,6 +70,7 @@ const App = () => {
 
       <Routes>
         <Route path="/" element={<MainPage refs={refs} />} />
+        <Route path="/galeria" element={<Gallery />} />
       </Routes>
       <footer>
         <a href="standardy_ochrony_malotenich.pdf">

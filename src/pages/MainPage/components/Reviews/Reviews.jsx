@@ -6,7 +6,7 @@ import "./Reviews.css";
 export default function Reviews({ ReviewsRef }) {
   return (
     <div ref={ReviewsRef}>
-      <Scene duration={562} classToggle={[".nav-4", "active"]}>
+      <Scene duration={562} classToggle={[".nav-reviews", "active"]}>
         <h2 style={{ textAlign: "center", marginTop: 0 }}>
           ⭐ Nasze opinie ⭐
         </h2>

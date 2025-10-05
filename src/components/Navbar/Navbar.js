@@ -1,6 +1,7 @@
 import { useLocation, useNavigate } from "react-router-dom";
 import NavbarDesktop from "./NavbarDesktop";
 import NavbarMobile from "./NavbarMobile";
+import { scrollToSection } from "../../pages/MainPage/MainPage";
 
 const Navbar = ({ isMobile, refs }) => {
   const navigate = useNavigate();
@@ -8,10 +9,8 @@ const Navbar = ({ isMobile, refs }) => {
 
   const handleItemClick = sectionName => {
     if (location.pathname === "/") {
-      window.scrollTo({
-        top: refs[sectionName]?.current?.offsetTop - 80,
-        behavior: "smooth",
-      });
+      scrollToSection(refs[sectionName]);
+      location.state.scrollTo = sectionName;
     } else {
       navigate("/", { state: { scrollTo: sectionName } });
     }
