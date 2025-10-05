@@ -28,6 +28,8 @@ const foodTypes = [
   "Pierś z kurczaka panierowana z frytkami i surówką + napój",
 ];
 
+const institutionTypes = ["szkole", "przedszkolu"];
+
 export default function Booking() {
   useEffect(() => {
     activateNavItem("nav-booking");
@@ -36,7 +38,10 @@ export default function Booking() {
   return (
     <form className="booking-container">
       <h1>REZERWACJA POBYTU GRUPY</h1>
-      <h2>Informacje o szkole/przedszkolu/organizacji</h2>
+      <h2 className="booking-title">
+        Informacje o{" "}
+        <SelectBox name="institutionType" options={institutionTypes} />
+      </h2>
       <div className="booking-section">
         <div className="booking-fields-container">
           <TextBox caption="Nazwa" name="name" />
