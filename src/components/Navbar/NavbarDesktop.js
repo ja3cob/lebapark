@@ -1,11 +1,4 @@
-const NavbarDesktop = ({ refs }) => {
-  const [HeroRef, NewsRef, VisitRef, ReviewsRef, ContactRef] = refs;
-  const handleScroll = item => {
-    window.scrollTo({
-      top: item.current.offsetTop - 65,
-      behavior: "smooth",
-    });
-  };
+const NavbarDesktop = ({ handleItemClick }) => {
   return (
     <>
       <nav className="navbar">
@@ -13,28 +6,28 @@ const NavbarDesktop = ({ refs }) => {
           <li className="nav-1">
             <button
               className="mobile-menu-link"
-              onClick={() => handleScroll(HeroRef)}>
+              onClick={() => handleItemClick("hero")}>
               Łeba Park
             </button>
           </li>
           <li className="nav-3">
             <button
               className="mobile-menu-link"
-              onClick={() => handleScroll(NewsRef)}>
+              onClick={() => handleItemClick("news")}>
               Aktualności
             </button>
           </li>
           <li className="nav-5">
             <button
               className="mobile-menu-link"
-              onClick={() => handleScroll(VisitRef)}>
+              onClick={() => handleItemClick("visit")}>
               Zaplanuj wizytę
             </button>
           </li>
           <li className="nav-4">
             <button
               className="mobile-menu-link"
-              onClick={() => handleScroll(ReviewsRef)}>
+              onClick={() => handleItemClick("reviews")}>
               Opinie
             </button>
           </li>
@@ -42,7 +35,7 @@ const NavbarDesktop = ({ refs }) => {
           <li className="nav-6">
             <button
               className="mobile-menu-link"
-              onClick={() => handleScroll(ContactRef)}>
+              onClick={() => handleItemClick("contact")}>
               Kontakt
             </button>
           </li>

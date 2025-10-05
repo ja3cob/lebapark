@@ -1,13 +1,6 @@
 import MobileMenuScript from "./MobileMenuScript";
 import Logo from "../../assets/img/logo.png";
-const NavbarMobile = ({ refs }) => {
-  const [HeroRef, NewsRef, VisitRef, ReviewsRef, ContactRef] = refs;
-  const handleScroll = item => {
-    window.scrollTo({
-      top: item.current.offsetTop - 65,
-      behavior: "smooth",
-    });
-  };
+const NavbarMobile = ({ handleItemClick }) => {
   return (
     <>
       <nav className="navbar-mobile">
@@ -23,35 +16,35 @@ const NavbarMobile = ({ refs }) => {
           <li>
             <button
               className="mobile-menu-link"
-              onClick={() => handleScroll(HeroRef)}>
+              onClick={() => handleItemClick("hero")}>
               Łeba Park
             </button>
           </li>
           <li>
             <button
               className="mobile-menu-link"
-              onClick={() => handleScroll(NewsRef)}>
+              onClick={() => handleItemClick("news")}>
               Aktualności
             </button>
           </li>
           <li>
             <button
               className="mobile-menu-link"
-              onClick={() => handleScroll(VisitRef)}>
+              onClick={() => handleItemClick("visit")}>
               Zaplanuj wizytę
             </button>
           </li>
           <li>
             <button
               className="mobile-menu-link"
-              onClick={() => handleScroll(ReviewsRef)}>
+              onClick={() => handleItemClick("reviews")}>
               Opinie
             </button>
           </li>
           <li>
             <button
               className="mobile-menu-link"
-              onClick={() => handleScroll(ContactRef)}>
+              onClick={() => handleItemClick("contact")}>
               Kontakt
             </button>
           </li>

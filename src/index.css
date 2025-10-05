@@ -26,6 +26,7 @@ sup {
   vertical-align: top;
   font-size: 0.6em;
 }
+h1,
 h2,
 h3 {
   color: var(--header);

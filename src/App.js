@@ -1,3 +1,5 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import { useState, useEffect, useRef } from "react";
 import { useCookies } from "react-cookie";
 import Navbar from "./components/Navbar/Navbar";
@@ -55,14 +57,16 @@ const App = () => {
   });
 
   // references - scroll to section after navbar clicked
-  const HeroRef = useRef();
-  const NewsRef = useRef();
-  const VisitRef = useRef();
-  const ReviewsRef = useRef();
-  const ContactRef = useRef();
-  const refs = [HeroRef, NewsRef, VisitRef, ReviewsRef, ContactRef];
+  const refs = {
+    hero: useRef(),
+    news: useRef(),
+    visit: useRef(),
+    reviews: useRef(),
+    contact: useRef(),
+  };
+
   return (
-    <Controller>
+    <Router>
       <Navbar isMobile={isMobile} refs={refs} />
       {!cookies.CookiesParkLeba && (
         <div className="cookies">
@@ -70,17 +74,27 @@ const App = () => {
           <button onClick={handleCookie}>X</button>
         </div>
       )}
+
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <Controller>
       <div className="content">
-        <Hero HeroRef={HeroRef} />
+                <Hero HeroRef={refs.hero} />
         <img className="separator" src={Separator1} alt="Separator" />
-        <PlanYourVisit VisitRef={VisitRef} />
+                <PlanYourVisit VisitRef={refs.visit} />
         <img className="separator" src={Separator2} alt="Separator" />
-        <News NewsRef={NewsRef} />
+                <News NewsRef={refs.news} />
         <img className="separator" src={Separator1} alt="Separator" />
-        <Reviews ReviewsRef={ReviewsRef} />
+                <Reviews ReviewsRef={refs.reviews} />
         <img className="separator" src={Separator2} alt="Separator" />
-        <Contact ContactRef={ContactRef} />
+                <Contact ContactRef={refs.contact} />
       </div>
+            </Controller>
+          }
+        />
+      </Routes>
       <footer>
         <a href="standardy_ochrony_malotenich.pdf">
           Standardy Ochrony Małoletnich
@@ -88,7 +102,7 @@ const App = () => {
         <p>Wszystkie prawa zastrzeżone.</p>
         <p>Copyright by Łeba Park © 2008-2025.</p>
       </footer>
-    </Controller>
+    </Router>
   );
 };
 
