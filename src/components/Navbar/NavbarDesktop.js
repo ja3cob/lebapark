@@ -8,7 +8,7 @@ export function activateNavItem(itemClassName) {
   if (itemClassName) {
     document
       .querySelector(`.nav-item.${itemClassName}`)
-      .classList.add("active");
+      ?.classList.add("active");
   }
 }
 
@@ -23,18 +23,18 @@ const NavbarDesktop = ({ handleItemClick }) => {
             Łeba Park
           </button>
         </li>
-        <li className="nav-item nav-news">
-          <button
-            className="mobile-menu-link"
-            onClick={() => handleItemClick("news")}>
-            Aktualności
-          </button>
-        </li>
         <li className="nav-item nav-visit">
           <button
             className="mobile-menu-link"
             onClick={() => handleItemClick("visit")}>
             Zaplanuj wizytę
+          </button>
+        </li>
+        <li className="nav-item nav-news">
+          <button
+            className="mobile-menu-link"
+            onClick={() => handleItemClick("news")}>
+            Aktualności
           </button>
         </li>
         <li className="nav-item nav-reviews">

@@ -1,5 +1,6 @@
 import MobileMenuScript from "./MobileMenuScript";
 import Logo from "../../assets/img/logo.png";
+import { Link } from "react-router-dom";
 const NavbarMobile = ({ handleItemClick }) => {
   return (
     <>
@@ -23,15 +24,15 @@ const NavbarMobile = ({ handleItemClick }) => {
           <li>
             <button
               className="mobile-menu-link"
-              onClick={() => handleItemClick("news")}>
-              Aktualności
+              onClick={() => handleItemClick("visit")}>
+              Zaplanuj wizytę
             </button>
           </li>
           <li>
             <button
               className="mobile-menu-link"
-              onClick={() => handleItemClick("visit")}>
-              Zaplanuj wizytę
+              onClick={() => handleItemClick("news")}>
+              Aktualności
             </button>
           </li>
           <li>
@@ -47,6 +48,11 @@ const NavbarMobile = ({ handleItemClick }) => {
               onClick={() => handleItemClick("contact")}>
               Kontakt
             </button>
+          </li>
+          <li>
+            <Link className="mobile-menu-link" to="/galeria">
+              Galeria
+            </Link>
           </li>
           <li>
             <button className="mobile-menu-link open-modal">Kup bilet</button>
