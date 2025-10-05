@@ -1,0 +1,18 @@
+.textBox-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+}
+.textBox-container label {
+  margin-left: 5px;
+}
+
+.textBox {
+  border-radius: 10px;
+  padding: 5px 10px;
+  border: 2px solid var(--orange);
+  width: 100%;
+  font-size: 1rem;
+  background-color: var(--white);
+}
