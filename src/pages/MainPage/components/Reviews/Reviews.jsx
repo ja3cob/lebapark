@@ -1,6 +1,6 @@
 import { Scene } from "react-scrollmagic";
-import reviews from "../../assets/reviews.json";
-import Opinion from "../Opinion/Opinion";
+import reviews from "../../../../assets/reviews.json";
+import Opinion from "./Opinion/Opinion";
 import "./Reviews.css";
 
 export default function Reviews({ ReviewsRef }) {

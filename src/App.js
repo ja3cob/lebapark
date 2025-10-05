@@ -1,16 +1,8 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
 import { useState, useEffect, useRef } from "react";
 import { useCookies } from "react-cookie";
 import Navbar from "./components/Navbar/Navbar";
-import Hero from "./components/Hero";
-import News from "./components/News";
-import PlanYourVisit from "./components/PlanYourVisit";
-import Contact from "./components/Contact";
-import { Controller } from "react-scrollmagic";
-import Separator1 from "./assets/img/attractions-separator1.png";
-import Separator2 from "./assets/img/attractions-separator2.png";
-import Reviews from "./components/Reviews/Reviews";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import MainPage from "./pages/MainPage/MainPage";
 // function which limits resize event occurrence
 function debounce(fn, ms) {
   let timer;
@@ -76,24 +68,7 @@ const App = () => {
       )}
 
       <Routes>
-        <Route
-          path="/"
-          element={
-            <Controller>
-      <div className="content">
-                <Hero HeroRef={refs.hero} />
-        <img className="separator" src={Separator1} alt="Separator" />
-                <PlanYourVisit VisitRef={refs.visit} />
-        <img className="separator" src={Separator2} alt="Separator" />
-                <News NewsRef={refs.news} />
-        <img className="separator" src={Separator1} alt="Separator" />
-                <Reviews ReviewsRef={refs.reviews} />
-        <img className="separator" src={Separator2} alt="Separator" />
-                <Contact ContactRef={refs.contact} />
-      </div>
-            </Controller>
-          }
-        />
+        <Route path="/" element={<MainPage refs={refs} />} />
       </Routes>
       <footer>
         <a href="standardy_ochrony_malotenich.pdf">

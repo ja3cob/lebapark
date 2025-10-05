@@ -1,8 +1,8 @@
-import Logo from "../assets/img/logo.png";
-import Map from "../assets/img/mapa-thumb.jpg";
+import Logo from "../../../assets/img/logo.png";
+import Map from "../../../assets/img/mapa-thumb.jpg";
 import { Scene } from "react-scrollmagic";
-import Video from "../assets/img/hero.mp4";
-import Poster from "../assets/img/hero-poster.jpg";
+import Video from "../../../assets/img/hero.mp4";
+import Poster from "../../../assets/img/hero-poster.jpg";
 
 const Hero = ({ HeroRef }) => {
   return (

@@ -1,7 +1,7 @@
-import News1 from "../assets/img/news-1.png";
-import News2 from "../assets/img/news-2.png";
-import News3 from "../assets/img/news-3.png";
-import News4 from "../assets/img/news-4.png";
+import News1 from "../../../assets/img/news-1.png";
+import News2 from "../../../assets/img/news-2.png";
+import News3 from "../../../assets/img/news-3.png";
+import News4 from "../../../assets/img/news-4.png";
 import { Scene } from "react-scrollmagic";
 const News = ({ NewsRef }) => {
   return (

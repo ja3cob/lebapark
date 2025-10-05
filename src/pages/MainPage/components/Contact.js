@@ -1,9 +1,9 @@
-import ContactHeader from "../assets/img/contact-header.png";
-import Pfr from "../assets/img/pfr.png";
+import ContactHeader from "../../../assets/img/contact-header.png";
+import Pfr from "../../../assets/img/pfr.png";
 import { Scene } from "react-scrollmagic";
-import Facebook from "../assets/img/facebook-logo.png";
-import Instagram from "../assets/img/instagram-logo.png";
-import TikTok from "../assets/img/tiktok-logo.png";
+import Facebook from "../../../assets/img/facebook-logo.png";
+import Instagram from "../../../assets/img/instagram-logo.png";
+import TikTok from "../../../assets/img/tiktok-logo.png";
 
 const Contact = ({ ContactRef }) => {
   return (
