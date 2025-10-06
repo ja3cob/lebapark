@@ -302,22 +302,26 @@ h3 {
   cursor: pointer;
   border-radius: 50%;
   z-index: 9;
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   transition: 0.2s ease;
 }
+.btn-buy-tickets.buy-tickets-left {
+  display: none;
+}
+
 .btn-buy-tickets:hover {
   transform: translateY(-4px);
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5);
 }
 
-.btn-buy-tickets span {
-  display: none;
-  font-size: 1.7rem;
-}
 .btn-buy-tickets i {
   transform: rotate(10deg);
   font-size: 2.5rem;
+  margin-bottom: 5px;
+}
+.btn-buy-tickets span {
+  white-space: nowrap;
 }
 
 /* 2.5 - animations */
@@ -744,11 +748,16 @@ footer a {
   .btn-buy-tickets {
     border-radius: 10px;
     top: 80px;
-    width: initial;
+    width: fit-content;
     height: 60px;
   }
+  .btn-buy-tickets.buy-tickets-left {
+    left: 10px;
+    display: inline-block;
+  }
+
   .btn-buy-tickets span {
-    display: initial;
+    font-size: 1.7rem;
   }
   .btn-buy-tickets i {
     display: none;

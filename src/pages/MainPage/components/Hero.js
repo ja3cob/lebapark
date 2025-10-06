@@ -12,10 +12,16 @@ const Hero = ({ HeroRef }) => {
           <img src={Logo} alt="Logo parku dinozaurów Łeba" />
         </div>
       </Scene>
-      <button className="btn-buy-tickets">
-        <span>KUP BILET ONLINE</span>
+
+      <button className="btn-buy-tickets buy-tickets-left">
         <i className="fa-solid fa-ticket" />
+        <span>KUP BILET</span>
       </button>
+      <button className="btn-buy-tickets buy-tickets-right">
+        <i className="fa-solid fa-ticket" />
+        <span>KUP BILET</span>
+      </button>
+
       <div className="hero-video">
         <h3>Zobacz filmik</h3>
         <video
