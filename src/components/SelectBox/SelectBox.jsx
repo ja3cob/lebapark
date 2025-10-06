@@ -5,7 +5,7 @@ const SelectBox = ({ className, caption, name, options }) => {
 
   return (
     <div className={"selectBox-container " + (className ? className : "")}>
-      {caption && <label for={id}>{caption}</label>}
+      {caption && <label htmlFor={id}>{caption}</label>}
       <select id={id} className="selectBox" name={name}>
         {options.map((option, index) => (
           <option key={index} value={option}>

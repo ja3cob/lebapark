@@ -1,10 +1,10 @@
 import "./TextBox.css";
 
-const TextBox = ({ className, caption, name, type, rich }) => {
+const TextBox = ({ className, caption, name, type, rich, min }) => {
   const id = "textBox-" + name;
   return (
     <div className={"textBox-container " + (className ? className : "")}>
-      <label for={id}>{caption}</label>
+      <label htmlFor={id}>{caption}</label>
       {rich ? (
         <textarea
           id={id}
@@ -20,6 +20,7 @@ const TextBox = ({ className, caption, name, type, rich }) => {
           name={name}
           type={type ?? "text"}
           placeholder={caption}
+          min={min}
         />
       )}
     </div>

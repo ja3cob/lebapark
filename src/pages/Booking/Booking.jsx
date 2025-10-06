@@ -54,6 +54,7 @@ export default function Booking() {
             caption="NIP (tylko przy fakturach)"
             name="nip"
             type="number"
+            min={0}
           />
           <TextBox caption="Numer telefonu" name="phone" type="tel" />
           <SelectBox
@@ -75,6 +76,7 @@ export default function Booking() {
             caption="Ilość dzieci"
             name="childrenQuantity"
             type="number"
+            min={1}
           />
         </div>
         <div className="booking-fields-container">
@@ -83,6 +85,7 @@ export default function Booking() {
             caption="Ilość opiekunów"
             name="teachersQuantity"
             type="number"
+            min={1}
           />
         </div>
       </div>
