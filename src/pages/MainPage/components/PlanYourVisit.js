@@ -25,22 +25,32 @@ const PlanYourVisit = ({ VisitRef }) => {
           <div className="visit-header">
             <img src={VisitHeader2} alt="Kalendarz" />
           </div>
-          <h4>od 26 kwietnia do 30 kwietnia: 9:00 – 16:00</h4>
-          <p>park należy opuścić do 17:30</p>
-          <h4>od 1 maja do 4 maja: 9:00 – 17:00</h4>
-          <p>park należy opuścić do 18:30</p>
-          <h4>od 5 maja do 18 czerwca: 9:00 – 16:00</h4>
-          <p>park należy opuścić do 17:30</p>
-          <h4>od 19 czerwca do 27 czerwca: 9:00 – 17:00</h4>
-          <p>park należy opuścić do 18:30</p>
-          <h4>od 28 czerwca do 24 sierpnia: 9:00 – 18:30</h4>
-          <p>park należy opuścić do 19:30</p>
-          <h4>od 25 sierpnia do 7 września: 9:00 – 16:00</h4>
-          <p>park należy opuścić do 17:30</p>
-          <h4>od 8 września do 21 września: 9:00 – 15:30</h4>
-          <p>park należy opuścić do 16:30</p>
+          <h4>od 25 kwietnia do 26 kwietnia: 9:00 – 17:30</h4>
+          <p>kasa czynna do 16:00</p>
+          <h4>od 30 kwietnia do 3 maja: 9:00 – 18:30</h4>
+          <p>kasa czynna do 17:00</p>
+          <h4>od 4 maja do 29 maja: 9:00 – 17:30</h4>
+          <p>kasa czynna do 16:00</p>
+          <h4>od 30 maja do 26 czerwca: 9:00 – 18:30</h4>
+          <p>kasa czynna do 17:00</p>
+          <h4>od 27 czerwca do 23 sierpnia: 9:00 – 19:30</h4>
+          <p>kasa czynna do 18:00</p>
+          <h4>od 24 sierpnia do 6 września: 9:00 – 17:30</h4>
+          <p>kasa czynna do 16:00</p>
 
-          <h4>od 22 września park jest nieczynny</h4>
+          <h4>od 7 września do 9 września: park nieczynny</h4>
+          <h4>od 10 września do 13 września: 9:00 – 16:30</h4>
+          <p>kasa czynna do 15:00</p>
+          <h4>od 14 września do 16 września: park nieczynny</h4>
+          <h4>od 17 września do 20 września: 9:00 – 16:30</h4>
+          <p>kasa czynna do 15:00</p>
+          <h4>od 21 września do 23 września park nieczynny</h4>
+          <h4>od 24 września do 27 września: 9:00 – 16:30</h4>
+          <p>kasa czynna do 15:00</p>
+
+          <h4>od 28 września park jest nieczynny</h4>
+
+          <h4>PO ZAMKNIĘCIU KASY BILET MOŻNA KUPIĆ TYLKO ONLINE</h4>
         </div>
         <div className="visit-item">
           <div className="visit-header">
