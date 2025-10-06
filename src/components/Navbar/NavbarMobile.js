@@ -51,7 +51,7 @@ const NavbarMobile = ({ handleItemClick }) => {
           </li>
           <li>
             <Link className="mobile-menu-link" to="/rezerwacje">
-              Rezerwacje
+              Rezerwacje - grupy
             </Link>
           </li>
           <li>

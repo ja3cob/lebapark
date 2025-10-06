@@ -54,7 +54,7 @@ const NavbarDesktop = ({ handleItemClick }) => {
         </li>
         <li className="nav-item nav-booking">
           <Link className="mobile-menu-link" to="/rezerwacje">
-            Rezerwacje
+            Rezerwacje - grupy
           </Link>
         </li>
         <li className="nav-item nav-gallery">
