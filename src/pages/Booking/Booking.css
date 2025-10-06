@@ -29,6 +29,9 @@
   margin-top: 40px;
 }
 
+.booking-section {
+  margin-top: 20px;
+}
 .booking-section,
 .booking-fields-container {
   display: flex;
