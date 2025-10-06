@@ -68,7 +68,7 @@ export default function Booking() {
       <h2>Opiekun grupy/rezerwujący</h2>
       <div className="booking-section">
         <div className="booking-fields-container">
-          <TextBox caption="Imię" name="teacherFirstName" />
+          <TextBox caption="Imię i nazwisko" name="teacherName" />
           <TextBox caption="Adres e-mail" name="teacherEmail" type="email" />
           <TextBox
             caption="Ilość dzieci"
@@ -77,7 +77,6 @@ export default function Booking() {
           />
         </div>
         <div className="booking-fields-container">
-          <TextBox caption="Nazwisko" name="teacherSurname" />
           <TextBox caption="Numer telefonu" name="teacherPhone" type="tel" />
           <TextBox
             caption="Ilość opiekunów"
