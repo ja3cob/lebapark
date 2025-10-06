@@ -10,7 +10,9 @@ const Navbar = ({ isMobile, refs }) => {
   const handleItemClick = sectionName => {
     if (location.pathname === "/") {
       scrollToSection(refs[sectionName]);
-      location.state.scrollTo = sectionName;
+      if (location.state?.scrollTo) {
+        location.state.scrollTo = sectionName;
+      }
     } else {
       navigate("/", { state: { scrollTo: sectionName } });
     }
