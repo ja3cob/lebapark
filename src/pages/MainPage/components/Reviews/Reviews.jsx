@@ -4,6 +4,8 @@ import Opinion from "./Opinion/Opinion";
 import "./Reviews.css";
 
 export default function Reviews({ ReviewsRef }) {
+  let index = 0;
+
   return (
     <div ref={ReviewsRef}>
       <Scene duration={562} classToggle={[".nav-reviews", "active"]}>
@@ -12,8 +14,13 @@ export default function Reviews({ ReviewsRef }) {
         </h2>
       </Scene>
       <div className="reviews-container">
-        {reviews.map((review, index) => (
-          <Opinion {...review} key={index} />
+        {reviews.slice(0, 3).map(review => (
+          <Opinion {...review} key={index++} />
+        ))}
+      </div>
+      <div className="reviews-container">
+        {reviews.slice(3, 6).map(review => (
+          <Opinion {...review} key={index++} />
         ))}
       </div>
     </div>
