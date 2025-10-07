@@ -39,6 +39,20 @@ const Contact = ({ ContactRef }) => {
             ul. Kolonijna 24A, Nowęcin k. Łeby
           </p>
           <p>
+            <strong>Rezerwacja pobytu</strong> w{" "}
+            <strong>Łeba Park Resort</strong> przez telefon:
+            <br />
+            <a href="tel: 785 724 888">
+              <span>785 724 888</span>
+            </a>
+            <br />
+            lub zapytanie mailowe wysłane na adres e-mail:
+            <br />
+            <span>recepcja@lebaparkresort.pl</span>
+            <br />
+            ul. Kolonijna 24 A, Łeba
+          </p>
+          <p>
             <strong>Rezerwacja pobytu</strong> w hotelu{" "}
             <strong>Grand Łeba</strong> przez telefon:
             <br />
@@ -46,7 +60,7 @@ const Contact = ({ ContactRef }) => {
               <span>723 724 722</span>
             </a>
             <br />
-            lub o zapytanie mailowe wysłane na adres e-mail:
+            lub zapytanie mailowe wysłane na adres e-mail:
             <br />
             <span>recepcja@grandleba.pl</span>
             <br />
