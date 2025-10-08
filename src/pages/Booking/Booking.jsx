@@ -50,16 +50,11 @@ export default function Booking() {
           <TextBox caption="Miasto" name="city" />
         </div>
         <div className="booking-fields-container">
-          <TextBox
-            caption="NIP (tylko przy fakturach)"
-            name="nip"
-            type="number"
-            min={0}
-          />
+          <TextBox caption="NIP (tylko przy fakturach)" name="nip" />
           <TextBox caption="Numer telefonu" name="phone" type="tel" />
           <SelectBox
             caption="Województwo"
-            name="voivodeShips"
+            name="voivodeShip"
             options={voivodeShips}
           />
           <TextBox caption="Kod pocztowy" name="zip" />
