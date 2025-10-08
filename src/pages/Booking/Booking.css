@@ -64,6 +64,13 @@
   font-weight: bold;
 }
 
+.status-message {
+  font-family: Pangolin;
+  font-size: 1.2rem;
+  margin-bottom: 0;
+  text-align: center;
+}
+
 .btn-booking-submit {
   width: 100%;
   font-family: Pangolin;
@@ -73,6 +80,7 @@
   border: 0;
   border-radius: 10px;
   padding: 7px 0;
+  cursor: pointer;
 }
 
 @media (max-width: 1000px) {
@@ -83,6 +91,10 @@
 
   .booking-fields-container {
     width: 100%;
+  }
+
+  .status-message {
+    font-size: 1rem;
   }
 
   .btn-booking-submit {
