@@ -243,7 +243,7 @@ h3 {
 }
 
 .hero-box {
-  width: calc(100% - 2 * 5px);
+  max-width: calc(100% - 2 * 5px);
   margin: 5px;
   transition: all 0.3s;
   border: 2px solid var(--orange);
@@ -253,11 +253,12 @@ h3 {
 
 .hero-video {
   margin-top: 80px;
+  text-align: center;
 }
 
 .hero-video > video {
-  object-fit: cover;
-  max-height: 80vh;
+  object-fit: contain;
+  max-height: calc(100vh - 60px - 50px);
 }
 
 .hero-video h3,
