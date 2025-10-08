@@ -1,6 +1,6 @@
 import "./TextBox.css";
 
-const TextBox = ({ className, caption, name, type, rich, min }) => {
+const TextBox = ({ className, caption, name, type, rich, min, ...props }) => {
   const id = "textBox-" + name;
   return (
     <div className={"textBox-container " + (className ? className : "")}>
@@ -21,6 +21,7 @@ const TextBox = ({ className, caption, name, type, rich, min }) => {
           type={type ?? "text"}
           placeholder={caption}
           min={min}
+          {...props}
         />
       )}
     </div>
