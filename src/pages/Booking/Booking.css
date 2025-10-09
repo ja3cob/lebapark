@@ -1,0 +1,103 @@
+.booking-container {
+  padding: 30px;
+  padding-top: calc(60px + 15px);
+  min-height: calc(100vh - 95px);
+  max-width: calc(2 * 300px + 2 * 10px + 2 * 15px);
+  margin: 0 auto;
+}
+
+.booking-container h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.booking-container h2 {
+  text-align: center;
+}
+
+.booking-title .selectBox-container {
+  display: inline;
+}
+.booking-title .selectBox {
+  width: fit-content;
+}
+
+.booking-container h2:not(:first-of-type),
+.booking-input,
+.btn-booking-submit,
+.booking-group-quantities {
+  margin-top: 40px;
+}
+
+.booking-section {
+  margin-top: 20px;
+}
+.booking-section,
+.booking-fields-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.booking-fields-container {
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.booking-input select,
+.booking-input textarea {
+  width: 100% !important;
+}
+
+.booking-input label {
+  text-align: center;
+  font-size: 1.5em;
+  color: var(--header);
+  font-weight: bold;
+}
+
+.booking-group-quantities p {
+  color: var(--header);
+  margin: 0;
+}
+.booking-group-quantities p span {
+  font-weight: bold;
+}
+
+.status-message {
+  font-family: Pangolin;
+  font-size: 1.2rem;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.btn-booking-submit {
+  width: 100%;
+  font-family: Pangolin;
+  font-size: 2rem;
+  background-color: var(--red);
+  color: var(--white);
+  border: 0;
+  border-radius: 10px;
+  padding: 7px 0;
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .booking-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .booking-fields-container {
+    width: 100%;
+  }
+
+  .status-message {
+    font-size: 1rem;
+  }
+
+  .btn-booking-submit {
+    font-size: 1.6rem;
+  }
+}

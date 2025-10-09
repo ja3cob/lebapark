@@ -1,20 +1,7 @@
-import MobileMenuScript from './MobileMenuScript';
-import Logo from '../../assets/logo.png';
-const NavbarMobile = ({ refs }) => {
-  const [
-    HeroRef,
-    AttractionsRef,
-    NewsRef,
-    OffersRef,
-    VisitRef,
-    ContactRef,
-  ] = refs;
-  const handleScroll = item => {
-    window.scrollTo({
-      top: item.current.offsetTop - 65,
-      behavior: 'smooth',
-    });
-  };
+import MobileMenuScript from "./MobileMenuScript";
+import Logo from "../../assets/img/logo.png";
+import { Link } from "react-router-dom";
+const NavbarMobile = ({ handleItemClick }) => {
   return (
     <>
       <nav className="navbar-mobile">
@@ -30,51 +17,47 @@ const NavbarMobile = ({ refs }) => {
           <li>
             <button
               className="mobile-menu-link"
-              onClick={() => handleScroll(HeroRef)}
-            >
+              onClick={() => handleItemClick("hero")}>
               Łeba Park
             </button>
           </li>
           <li>
             <button
               className="mobile-menu-link"
-              onClick={() => handleScroll(AttractionsRef)}
-            >
-              Atrakcje
+              onClick={() => handleItemClick("visit")}>
+              Zaplanuj wizytę
             </button>
           </li>
           <li>
             <button
               className="mobile-menu-link"
-              onClick={() => handleScroll(NewsRef)}
-            >
+              onClick={() => handleItemClick("news")}>
               Aktualności
             </button>
           </li>
           <li>
             <button
               className="mobile-menu-link"
-              onClick={() => handleScroll(OffersRef)}
-            >
-              Oferty specjalne
+              onClick={() => handleItemClick("reviews")}>
+              Opinie
             </button>
           </li>
           <li>
             <button
               className="mobile-menu-link"
-              onClick={() => handleScroll(VisitRef)}
-            >
-              Zaplanuj wizytę
-            </button>
-          </li>
-
-          <li>
-            <button
-              className="mobile-menu-link"
-              onClick={() => handleScroll(ContactRef)}
-            >
+              onClick={() => handleItemClick("contact")}>
               Kontakt
             </button>
+          </li>
+          <li>
+            <Link className="mobile-menu-link" to="/rezerwacje">
+              Rezerwacje - grupy
+            </Link>
+          </li>
+          <li>
+            <Link className="mobile-menu-link" to="/galeria">
+              Galeria
+            </Link>
           </li>
           <li>
             <button className="mobile-menu-link open-modal">Kup bilet</button>
