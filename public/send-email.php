@@ -59,7 +59,7 @@ if (
 ) {
     array_push($errors, "Niepoprawny email");
 }
-if (!empty($nip) && !preg_match('/^\d{9}$/', $nip)) {
+if (!empty($nip) && !preg_match('/^\d{10}$/', $nip)) {
     array_push($errors, "Niepoprawny NIP");
 }
 if (

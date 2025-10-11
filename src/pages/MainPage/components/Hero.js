@@ -30,7 +30,8 @@ const Hero = ({ HeroRef }) => {
           preload="auto"
           autoPlay
           muted
-          loop>
+          loop
+          playsInline>
           <source src={Video} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
