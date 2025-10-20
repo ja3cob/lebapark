@@ -64,8 +64,8 @@ const App = () => {
       <Navbar isMobile={isMobile} refs={refs} />
       {!cookies.CookiesParkLeba && (
         <div className="cookies">
-          <p>Ta strona wykorzystuje pliki cookies.</p>{" "}
           <button onClick={handleCookie}>X</button>
+          <p>Ta strona wykorzystuje pliki cookies.</p>{" "}
         </div>
       )}
 
