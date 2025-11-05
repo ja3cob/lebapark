@@ -71,11 +71,15 @@ const PlanYourVisit = ({ VisitRef }) => {
           <h4>Bilet grupowy szkolny: 69 zł</h4>
           <p>
             Tylko dla dzieci i młodzieży do 15 roku życia w zorganizowanych
-            grupach szkolnych, zielonych szkół, koloniach powyżej 20 osób
+            grupach szkolnych, zielonych szkół, koloniach powyżej 20 osób. Na
+            każde 10 dzieci - 1 opiekun wchodzi gratis!
           </p>
 
           <h4>Bilet grupowy przedszkolny: 59 zł</h4>
-          <p>Tylko dla dzieci z przedszkoli w grupach powyżej 15 osób</p>
+          <p>
+            Tylko dla dzieci z przedszkoli w grupach powyżej 15 osób. Na każde
+            10 dzieci - 1 opiekun wchodzi gratis!
+          </p>
         </div>
       </div>
 
