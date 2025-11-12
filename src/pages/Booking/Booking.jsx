@@ -29,7 +29,7 @@ const foodTypes = [
   "Pierś z kurczaka panierowana z frytkami i surówką + napój",
 ];
 
-const institutionTypes = ["szkole", "przedszkolu"];
+const institutionTypes = ["szkole", "przedszkolu", "obozie", "kolonii"];
 
 export default function Booking() {
   useEffect(() => {
