@@ -17,6 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] !== "POST") {
 
 $input = json_decode(file_get_contents("php://input"), true);
 
+$date = htmlspecialchars(trim($input["date"]));
 $institutionType = htmlspecialchars(trim($input["institutionType"]));
 $name = htmlspecialchars(trim($input["name"]));
 $email = htmlspecialchars(trim($input["email"]));
@@ -36,6 +37,7 @@ $additionalInfo = htmlspecialchars(trim($input["additionalInfo"]));
 
 $errors = array();
 if (
+    empty($date) ||
     empty($institutionType) ||
     empty($name) ||
     empty($email) ||
@@ -88,6 +90,7 @@ $to = "lebapark@lebapark.pl";
 $subject = "Nowa rezerwacja od: $name";
 
 $body = "
+Data przyjazdu: $date
 Informacje o: $institutionType
 Nazwa: $name
 Email: $email
