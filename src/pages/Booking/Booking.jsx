@@ -23,6 +23,14 @@ const voivodeShips = [
   "zachodniopomorskie",
 ];
 
+const availableDateRanges = [
+  { from: "04-25", to: "04-26" },
+  { from: "04-30", to: "09-06" },
+  { from: "09-10", to: "09-13" },
+  { from: "09-17", to: "09-20" },
+  { from: "09-24", to: "09-27" },
+];
+
 const foodTypes = [
   "Bez posiłku",
   "Nuggetsy z polędwiczek z kurczaka z frytkami i surówką + napój",
@@ -38,6 +46,11 @@ const higherFoodPrice = {
 
 const institutionTypes = ["szkole", "przedszkolu", "obozie", "kolonii"];
 
+const getMonthAndDay = date =>
+  String(date.getMonth() + 1).padStart(2, 0) +
+  "-" +
+  String(date.getDate()).padStart(2, 0);
+
 export default function Booking() {
   useEffect(() => {
     activateNavItem("nav-booking");
@@ -48,8 +61,15 @@ export default function Booking() {
     new Date().toISOString().split("T")[0]
   );
   const [status, setStatus] = useState({ type: "", message: "" });
+  const [dateError, setDateError] = useState("");
+
   const handleSubmit = async e => {
     e.preventDefault();
+
+    if (dateError) {
+      setStatus({ type: "error", message: dateError });
+      return;
+    }
 
     const form = e.target;
     const formData = new FormData(form);
@@ -82,16 +102,25 @@ export default function Booking() {
   };
 
   useEffect(() => {
-    const date = new Date(selectedDate);
-    const dateStr =
-      String(date.getMonth() + 1).padStart(2, 0) +
-      "-" +
-      String(date.getDate()).padStart(2, 0);
+    const monthAndDay = getMonthAndDay(new Date(selectedDate));
 
-    if (dateStr >= higherFoodPrice.from && dateStr <= higherFoodPrice.to) {
+    if (
+      monthAndDay >= higherFoodPrice.from &&
+      monthAndDay <= higherFoodPrice.to
+    ) {
       setFoodPrice(higherFoodPrice.price);
     } else {
       setFoodPrice(defaultFoodPrice);
+    }
+
+    if (
+      availableDateRanges.some(
+        p => monthAndDay >= p.from && monthAndDay <= p.to
+      )
+    ) {
+      setDateError("");
+    } else {
+      setDateError("Park nieczynny");
     }
   }, [selectedDate]);
 
@@ -100,14 +129,17 @@ export default function Booking() {
       <h1>REZERWACJA POBYTU GRUPY</h1>
       <h2 className="booking-date">
         Data przyjazdu:{" "}
-        <input
-          type="date"
-          name="date"
-          value={selectedDate}
-          onChange={e => setSelectedDate(e.target.value)}
-          min={new Date().toISOString().split("T")[0]}
-          required
-        />
+        <div className="booking-date-input">
+          <input
+            type="date"
+            name="date"
+            value={selectedDate}
+            onChange={e => setSelectedDate(e.target.value)}
+            min={new Date().toISOString().split("T")[0]}
+            required
+          />
+          <span className="booking-date-error">{dateError}</span>
+        </div>
       </h2>
       <h2 className="booking-title">
         Informacje o{" "}
