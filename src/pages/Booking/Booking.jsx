@@ -24,6 +24,7 @@ const voivodeShips = [
 ];
 
 const foodTypes = [
+  "Bez posiłku",
   "Nuggetsy z polędwiczek z kurczaka z frytkami i surówką + napój",
   "Pierś z kurczaka panierowana z frytkami i surówką + napój",
 ];
