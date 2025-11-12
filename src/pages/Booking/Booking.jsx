@@ -36,6 +36,9 @@ export default function Booking() {
     activateNavItem("nav-booking");
   }, []);
 
+  const [selectedDate, setSelectedDate] = useState(
+    new Date().toISOString().split("T")[0]
+  );
   const [status, setStatus] = useState({ type: "", message: "" });
   const handleSubmit = async e => {
     e.preventDefault();
@@ -73,6 +76,17 @@ export default function Booking() {
   return (
     <form onSubmit={handleSubmit} className="booking-container">
       <h1>REZERWACJA POBYTU GRUPY</h1>
+      <h2 className="booking-date">
+        Data przyjazdu:{" "}
+        <input
+          type="date"
+          name="date"
+          value={selectedDate}
+          onChange={e => setSelectedDate(e.target.value)}
+          min={new Date().toISOString().split("T")[0]}
+          required
+        />
+      </h2>
       <h2 className="booking-title">
         Informacje o{" "}
         <SelectBox name="institutionType" options={institutionTypes} />
