@@ -29,6 +29,13 @@ const foodTypes = [
   "Pierś z kurczaka panierowana z frytkami i surówką + napój",
 ];
 
+const defaultFoodPrice = "(w cenie biletu)";
+const higherFoodPrice = {
+  from: "06-27",
+  to: "08-24",
+  price: "(+35zł od osoby)",
+};
+
 const institutionTypes = ["szkole", "przedszkolu", "obozie", "kolonii"];
 
 export default function Booking() {
@@ -36,6 +43,7 @@ export default function Booking() {
     activateNavItem("nav-booking");
   }, []);
 
+  const [foodPrice, setFoodPrice] = useState(defaultFoodPrice);
   const [selectedDate, setSelectedDate] = useState(
     new Date().toISOString().split("T")[0]
   );
@@ -72,6 +80,20 @@ export default function Booking() {
       setStatus({ type: "error", message: "Błąd sieci" });
     }
   };
+
+  useEffect(() => {
+    const date = new Date(selectedDate);
+    const dateStr =
+      String(date.getMonth() + 1).padStart(2, 0) +
+      "-" +
+      String(date.getDate()).padStart(2, 0);
+
+    if (dateStr >= higherFoodPrice.from && dateStr <= higherFoodPrice.to) {
+      setFoodPrice(higherFoodPrice.price);
+    } else {
+      setFoodPrice(defaultFoodPrice);
+    }
+  }, [selectedDate]);
 
   return (
     <form onSubmit={handleSubmit} className="booking-container">
@@ -150,7 +172,9 @@ export default function Booking() {
         caption="Posiłek do wyboru"
         className="booking-input"
         name="foodType"
-        options={foodTypes}
+        options={foodTypes.map((type, i) =>
+          i > 0 ? `${type} ${foodPrice}` : type
+        )}
       />
 
       <TextBox
