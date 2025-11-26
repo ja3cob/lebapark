@@ -20,6 +20,9 @@ body {
   font-family: "Pangolin";
   background: var(--theme);
 }
+.no-scroll {
+  overflow: hidden;
+}
 #root {
   overflow: hidden;
 }
@@ -37,38 +40,6 @@ h3 {
 }
 .content {
   overflow: hidden;
-}
-.cookies {
-  display: flex;
-  align-items: center;
-  max-width: 800px;
-  position: fixed;
-  bottom: 0;
-  left: 50%;
-  transform: translate(-50%, 0);
-  padding: 10px;
-  background: var(--main);
-  color: var(--white);
-  font-size: 12px;
-  text-align: center;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  z-index: 9;
-}
-.cookies p {
-  margin: 0;
-}
-.cookies button {
-  margin: 0 0 0 5px;
-  border: none;
-  background: none;
-  color: white;
-  font-size: 15px;
-  cursor: pointer;
-  transition: 0.1s;
-}
-.cookies button:hover {
-  color: var(--header);
 }
 /* modal */
 .modal {

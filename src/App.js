@@ -19,9 +19,6 @@ function debounce(fn, ms) {
 const App = () => {
   //cookies
   const [cookies, setCookie] = useCookies(["CookiesParkLeba"]);
-  const handleCookie = () => {
-    setCookie("CookiesParkLeba", "CookiesAccepted", { path: "/" });
-  };
 
   // handling resize to put good components on mobile or desktop devices
 
@@ -40,16 +37,6 @@ const App = () => {
     return () => window.removeEventListener("resize", debouncedHandleResize);
   }, [width]);
 
-  // cookies
-  useEffect(() => {
-    if (!cookies.CookiesParkLeba) {
-      const cookiesBtn = document.querySelector(".cookies button");
-      cookiesBtn.addEventListener("click", () => {
-        cookiesBtn.parentElement.style.display = "none";
-      });
-    }
-  });
-
   // references - scroll to section after navbar clicked
   const refs = {
     hero: useRef(),
@@ -62,12 +49,6 @@ const App = () => {
   return (
     <Router>
       <Navbar isMobile={isMobile} refs={refs} />
-      {!cookies.CookiesParkLeba && (
-        <div className="cookies">
-          <button onClick={handleCookie}>X</button>
-          <p>Ta strona wykorzystuje pliki cookies.</p>{" "}
-        </div>
-      )}
 
       <Routes>
         <Route path="/" element={<MainPage refs={refs} />} />
