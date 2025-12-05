@@ -6,6 +6,7 @@ import Gallery from "./pages/Gallery/Gallery";
 import Booking from "./pages/Booking/Booking";
 import Popup from "./components/Popup/Popup";
 import BlackFriday from "./assets/img/popup-black-friday.png";
+import Christmas from "./assets/img/popup-christmas.jpg";
 
 // function which limits resize event occurrence
 function debounce(fn, ms) {
@@ -54,6 +55,12 @@ const App = () => {
         img={BlackFriday}
         dateStart={new Date(2025, 11 - 1, 27)}
         dateEnd={new Date(2025, 12 - 1, 5, 23, 59, 59)}
+      />
+      <Popup
+        name="Christmas"
+        img={Christmas}
+        dateStart={new Date(2025, 12 - 1, 6)}
+        dateEnd={new Date(2025, 12 - 1, 19, 23, 59, 59)}
       />
 
       <Routes>
