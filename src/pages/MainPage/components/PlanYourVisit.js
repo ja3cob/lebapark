@@ -15,7 +15,7 @@ const PlanYourVisit = ({ VisitRef }) => {
         <p className="visit-text">
           Nasze <span>elektryczne pojazdy</span> dowiozą Państwa do naszego
           parku za darmo. Parkujemy w centrum Łeby – ulica Wojska Polskiego
-          (obok pizzerii Lider). Pierwszy przejazd wykonujemy o godzinie{" "}
+          (obok Skweru Rybaka). Pierwszy przejazd wykonujemy o godzinie{" "}
           <span>9:00</span>, busy odjeżdżają <span>co 10 minut</span> (wg.
           zajętości pojazdów).
         </p>
