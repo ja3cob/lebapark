@@ -19,6 +19,10 @@ const PlanYourVisit = ({ VisitRef }) => {
           <span>9:00</span>, busy odjeżdżają <span>co 10 minut</span> (wg.
           zajętości pojazdów).
         </p>
+        <p className="visit-text">
+          Przejazdy meleksem realizowane są w sezonie wakacyjnym. W pozostałych
+          terminach prosimy o kontakt w celu uzyskania informacji o dostępności.
+        </p>
       </div>
       <div className="visit-items">
         <div className="visit-item">
