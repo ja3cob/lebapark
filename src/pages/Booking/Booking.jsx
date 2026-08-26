@@ -40,7 +40,7 @@ const foodTypes = [
 const defaultFoodPrice = "(w cenie biletu)";
 const higherFoodPrice = {
   from: "06-27",
-  to: "08-24",
+  to: "08-31",
   price: "(+35zł od osoby)",
 };
 
@@ -136,6 +136,11 @@ export default function Booking() {
             value={selectedDate}
             onChange={e => setSelectedDate(e.target.value)}
             min={new Date().toISOString().split("T")[0]}
+            max={
+              new Date(new Date().getFullYear() + "-12-31")
+                .toISOString()
+                .split("T")[0]
+            }
             required
           />
           <span className="booking-date-error">{dateError}</span>
