@@ -40,7 +40,7 @@ const foodTypes = [
 const defaultFoodPrice = "(w cenie biletu)";
 const higherFoodPrice = {
   from: "06-27",
-  to: "08-24",
+  to: "08-31",
   price: "(+35zł od osoby)",
 };
 
